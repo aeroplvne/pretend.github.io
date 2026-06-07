@@ -196,6 +196,6 @@
   .rp1_main2,.rp2_main2 {font-size: 20px!important;width: 650px!important;margin: 15px!important;}
   
   #c4 .cate_corps:nth-child(5){
-    margin-left:0%;
+    margin-left:0%!important;
 }
 }
