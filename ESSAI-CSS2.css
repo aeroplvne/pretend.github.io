@@ -527,19 +527,7 @@ color:transparent;background: var(--deg-3);
                
                .lastpost-avatar{position:relative; width:30px;height:30px;object-fit:cover;}
                
-               
-               /* BARRE FORUMACTIF */
-#fa_search,#fa_share{display:none!important}
-tr.post span.gensmall{display:none}
-.maintitle{margin-top:-47px}
-#fa_toolbar{z-index:201!important;height:0!important}
-#fa_usermenu{padding:0!important;width:150px}
-#fa_usermenu img{width:92px!important;padding:4px}
-#fa_usermenu > li{height:10px!important;width:10px!important}
-#fa_left{background-color:transparent!important;font-family:tahoma;font-size:10px;color:#fff!important;text-transform:lowercase;position:FIXED;left:1950px;margin-top:0;padding-left:0;padding-right:10px}
-#fa_toolbar{background-color:transparent!important;position:FIXED;margin-top:-2px;color:var(--color-en2)!important}
-a#fa_hide{display:none!important}
-a#fa_welcome{color:var(--color-en2);font-size:9px;}
+
 
           
           #FAM-button-open i::before,.bi-sticky-fill::before{color:#fff!important;}
