@@ -632,7 +632,25 @@ input:checked + .slider:before{transform:translateX(12px)}
 .switcheroo__squircles:before{content: 'mes persos';color:var(--text-c1);font-family: var(--font-5);font-weight: 500;font-size: 9px;text-transform: uppercase;height: 14px;margin: 6px 4px 0 0;padding: 1px 4px 1px 4px;}
  .switcheroo{position: fixed;z-index: 995;width: 100%;bottom: 0px;height: 30px;color: var(--para-c1);background: var(--nav);font-size: 16px;}
 .switcheroo,.switcheroo *,.switcheroo :after,.switcheroo :before{box-sizing:border-box}
-.switcheroo__squircles{display: flex;flex-direction: row;min-height: 100vh;margin: 2px 0 0 30px;padding: 0;list-style: none;background-color: transparent;}
+.switcheroo__squircles {
+    display: flex;
+    flex-direction: row;
+    margin: 2px 0 0 30px;
+}
+
+/* cache tout sauf le perso actif */
+.switcheroo__squircle {
+    display: none;
+}
+
+.switcheroo__squircle.active {
+    display: flex;
+}
+
+/* au survol de la barre */
+.switcheroo:hover .switcheroo__squircle {
+    display: flex;
+}
 .switcheroo__squircle{color:var(--text-c1)!important;display: flex;align-items: center;justify-content: center;width: 30px;height: 20px;border-radius: 25% 3%;cursor: pointer;position: relative;transition: border-radius 128ms linear; margin: 3px 5px;}
 .switcheroo__squircle--button{transition:border-radius 128ms linear;color:var(--para-c1);width: 20px !important;font-size: 14px;border-radius: 50%;}
 .switcheroo__squircle--button:hover{color:var(--text-c1);background-color:var(--fond-c2)}
