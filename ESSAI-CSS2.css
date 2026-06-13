@@ -535,7 +535,7 @@ tr.post span.gensmall{display:none}
 #fa_toolbar{z-index:201!important;height:0!important}
 #fa_usermenu{padding:0!important;width:150px}
 #fa_usermenu img{width:92px!important;padding:4px}
-#fa_right{display:none!important;}
+
 #fa_usermenu > li{height:10px!important;width:10px!important}
 #fa_left{background-color:transparent!important;font-family:tahoma;font-size:10px;color:#fff!important;text-transform:lowercase;position:FIXED;left:1950px;margin-top:0;padding-left:0;padding-right:10px}
 #fa_toolbar{background-color:transparent!important;position:FIXED;margin-top:-2px;color:var(--color-en2)!important}
