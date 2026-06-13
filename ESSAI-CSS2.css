@@ -540,20 +540,7 @@ tr.post span.gensmall{display:none}
 #fa_toolbar{background-color:transparent!important;position:FIXED;margin-top:-2px;color:var(--color-en2)!important}
 a#fa_hide{display:none!important}
 a#fa_welcome{color:var(--color-en2);font-size:9px;}
-#fa_right.welcome #fa_menu #fa_welcome{color:#fff;background-color:transparent;}
-div#fa_toolbar div,div#fa_toolbar span{margin:0}
-#fa_right a{color:var(--text-c1)!important}
-#fa_right{right: 130px;color:var(--text-c1)!important;font-family:var(--font-5);font-size:9px;font-weight:500;letter-spacing:0;text-decoration:none;text-transform:uppercase;background-color:var(--navig);margin-top:2px!important;position:FIXED;padding-left:4px;padding-right:10px;}
-ul#fa_menulist{position:absolute;padding-top:5px;background-color:var(--fond-c1)!important;font-size:11px;line-height:10px;border:none!important;height:160px;color:var(--text-c1)!important;z-index:16}
-#fa_menulist a{text-align: left;font-weight: 200;width: 120px;font-family: var(--font-1);font-size: 10px;border-bottom: 1px solid var(--border-c1) !important;letter-spacing: 0;text-transform: lowercase;padding: 4px 0 4px 0;}
-#fa_menulist :link,#fa_menulist :visited{color:var(--text-c1)!important}
-.fa_separator,a#fa_ranktitle,#fa_usermenu td.first,#fa_usermenu td.bold,#fa_usermenu table{display:none!important}
-#fa_right a[href$="login"],#fa_right a[href$="register"]{display:none!important}
-#compteur-mots{background-color:#333;color:#eee;text-align:center;font-family:var(--font-1);letter-spacing:0px;font-size:11px;padding:4px;text-transform:lowercase;padding-bottom:5px;font-weight:350}
-#fa_right.welcome #fa_menu ul{display:block;left:-282px!important;border:1px solid var(--border-c1)!important}
-               #fa_toolbar a:link,#fa_toolbar a:link, #fa_toolbar a:visited{color:var(--text-c1)!important;}
-#fa_toolbar a:link:hover, #fa_toolbar a:visited:hover{color:transparent!important;background: var(--text-c4)!important;background-clip: text!important;}
-#fa_right.welcome #fa_menu #fa_welcome{background:none!important}
+
           
           #FAM-button-open i::before,.bi-sticky-fill::before{color:#fff!important;}
 #bookmark-button-open {color: var(--text-c1)!important;font-size: 12px!important;background: var(--deg-4) !important;border-radius: 50%!important;position: fixed!important;z-index: 999!important;position: fixed !important;top: auto !important;left: auto !important;width: 22px!important;height: 22px!important;right: 44px !important;bottom: 4px !important;border:none!important;}
