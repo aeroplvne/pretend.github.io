@@ -638,16 +638,17 @@ input:checked + .slider:before{transform:translateX(12px)}
     margin: 2px 0 0 30px;
 }
 
-/* cache tout sauf le perso actif */
+/* cache tous les personnages */
 .switcheroo__squircle {
     display: none;
 }
 
+/* garde visible le personnage actif */
 .switcheroo__squircle.active {
     display: flex;
 }
 
-/* au survol de la barre */
+/* affiche tout au survol de la barre */
 .switcheroo:hover .switcheroo__squircle {
     display: flex;
 }
