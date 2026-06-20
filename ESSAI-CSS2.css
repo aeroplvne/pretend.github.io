@@ -460,7 +460,7 @@ color:transparent;background: var(--deg-3);
           #c4 .cate_corps:nth-child(5){margin-left:0%;}
   .cate_corps{float:left;position:relative;z-index:2;width:100%;padding:0;margin:0 0 10px 0;background:var(--fond-c2);height:130px;}
 .icat{width:25px;float:left;height:130px;border-bottom:none;margin: -6px 0 0 0;}
-                  .icat img {height:130px;}
+                  .icat img {height:130px;border-right:1px solid var(--border-c1);}
 .forum_desc{float:left;width:700px;height:70px;border-bottom:none;}
 .forum_desc p{height:55px}
 .cate_sslink{float:left;width:672px;padding:6px 0 9px 0;margin:0px 0 0 15px;border-bottom:none;}
