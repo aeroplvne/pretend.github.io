@@ -613,7 +613,7 @@ div.sceditor-dropdown{background:var(--fond-c2)!important;border:transparent!imp
 .theme-switch{display:inline-block;height:15px;position:relative;width:30px}
 .theme-switch input{display:none}
 .slider{background-color:var(--color-accent1);bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0;transition:.4s}
-.slider:before{background:var(--text-c4);bottom:2px;content:"";height:11px;left:4px;position:absolute;transition:.4s;width:11px}
+.slider:before{background:var(--text-c1);bottom:2px;content:"";height:11px;left:4px;position:absolute;transition:.4s;width:11px}
 input:checked + .slider{background-color:var(--color-accent)}
 input:checked + .slider:before{transform:translateX(12px)}
 .slider.round{border-radius:20px}
