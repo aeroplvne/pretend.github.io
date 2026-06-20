@@ -634,7 +634,7 @@ input:checked + .slider:before{transform:translateX(12px)}
 .switcheroo__squircles:before{ content: attr(data-user);color:var(--text-c1);font-family: var(--font-5);font-weight: 500;font-size: 9px;text-transform: uppercase;height: 14px;margin: 6px 4px 0 0;padding: 1px 4px 1px 4px;}
  .switcheroo{position: fixed;z-index: 995;width: 100%;bottom: 0px;height: 30px;color: var(--para-c1);
      background-image: var(--fondbg);
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;;font-size: 16px;}
