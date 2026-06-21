@@ -1,0 +1,75 @@
+        
+ #FAM-msg{max-width: 525px!important;}
+#FAM {height:80%!important;right: 65px!important;left:auto!important;background: var(--fond-c1)!important;bottom:30px!important;}
+#FAM-button-open{color: #fff!important;background: var(--deg-3)!important;font-size: 12px!important;border-radius: 50%!important;width: 22px!important;height: 22px!important;}
+#FAM-button-open{z-index:999;position:fixed!important;top:auto!important;left:auto!important;right: 15px!important;bottom: 4px!important;}
+.FAM-msg-text {color: var(--para-c1)!important;background: var(--fond-c2)!important;font-size: 13px!important;font-family: var(--font-1)!important;}
+#FAM-tab-container{height: 60px!important;}
+#FAM-tabs {padding: 10px 0!important;}
+.FAM-tab {background: var(--fond-c2)!important;color:var(--pa_c3);}
+.FAM-tab:hover{background: var(--deg-3)!important;color: var(--pa_c2)!important;}
+.FAM-tab-name{font-family: var(--font-5)!important;font-weight: 500!important;font-size: 10px!important;}
+.FAM-container-content{background: var(--fond-c1)!important;}
+#FAM-tab-container:after, .FAM-viewing-topic:before, .FAM-viewing-topic:after{background: none!important;}
+.FAM-my-msg .FAM-msg-text{border-bottom: 3px solid var(--pa_c3);}
+.FAM-tab.FAM-tab-active{background: var(--deg-4)!important;color:#fff!important;text-transform:uppercase!important;}
+.FAM-msg-name {font-family: var(--font-7) !important;font-weight: 500!important;font-size: 11px!important;text-transform:lowercase!important;}
+.FAM-maintitle {overflow: hidden;color: var(--text-c3);font-family: var(--font-7);font-size: 20px;font-weight: 500;text-transform: lowercase;width: 100%;text-align: right !important;margin: 0;}
+.FAM-forum .FAM-chat-avatar, .FAM-forum .FAM-chat-content {background-color: var(--fond-c2)!important;}
+.FAM-chat:hover {background-color: var(--fond-c3)!important;}
+.FAM-chat-avatar{padding: 4px!important;margin: 0 10px 0 0!important;border-radius: 50%!important;}
+.FAM-new-post, .FAM-new-post a, .FAM-new-post .FAM-chat-title {text-transform: lowercase!important;font-family: var(--font-7)!important;font-size: 14px!important;font-weight: 700 !important;margin: 0 5px!important;}
+#FAM-content{padding:0!important}
+.FAM-chat-content{padding: 6px 20px 6px 10px !important;border-radius: 0!important;margin: 1px 0!important;min-height: auto!important;}
+#FAM-tab-add{background: var(--fond-c2) !important;color: var(--text-c1) !important;margin: 10px 0 0 5px!important;}
+#FAM-msg{font-family: var(--font-1)!important;font-size: 12px!important;}
+.FAM-forum .FAM-chat-title {text-transform: lowercase;font-family: var(--font-7) !important;margin: 0 5px !important;}
+    
+#FAM-tab-container {display: flex;align-items: center;gap: 8px;position: relative;min-width: 0;}
+#FAM-tabs {display: flex;align-items: center;gap: 8px;flex: 1 1 auto;min-width: 0;overflow: hidden;}
+#FAM-tabs .FAM-tab {flex: 0 0 auto;min-width: 0;}
+#FAM-tabs .FAM-tab-name {display: block;max-width: 140px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#FAM-tab-overflow {position: relative;flex: 0 0 auto;display: flex;align-items: center;}
+#FAM-tab-overflow-toggle {appearance: none;-webkit-appearance: none;border: 0;outline: 0;background: rgba(255,255,255,0.06);color: inherit;border-radius: 10px;height: 34px;min-width: 34px;padding: 0 10px;display: inline-flex;align-items: center;justify-content: center;gap: 6px;cursor: pointer;transition: background .2s ease, transform .2s ease;}
+#FAM-tab-overflow-toggle:hover {background: rgba(255,255,255,0.12);}
+#FAM-tab-overflow-toggle i {font-size: 13px;line-height: 1;}
+#FAM-tab-overflow-count {font-size: 11px;line-height: 1;}
+#FAM-tab-overflow-menu {position: absolute;top: calc(100% + 8px);right: 0;width: 240px;max-width: min(240px, 80vw);background: var(--fond-c2)!important;border: 1px solid rgba(255,255,255,0.08);border-radius: 12px;box-shadow: 0 12px 12px rgba(0,0,0,0.35);padding: 8px;z-index: 999;overflow: auto;max-height: 300px;}
+#FAM-tab-overflow-menu[data-hidden="true"] {display: none;}
+#FAM-tab-overflow-menu[data-hidden="false"] {display: block;}
+.FAM-overflow-item {display: flex;align-items: center;gap: 10px;min-width: 0;padding: 10px 12px;border-radius: 10px;cursor: pointer;transition: background .2s ease;}
+.FAM-overflow-item:hover {background: var(--deg-3)!important;color: #fff!important;}
+.FAM-overflow-item-active {background: rgba(118, 201, 224, 0.2);}
+.FAM-overflow-item-name {flex: 1 1 auto;min-width: 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size: 10px;font-family: var(--font-5);color: var(--pa_c3);}
+.FAM-overflow-item-name:hover{color:#fff!important;}
+.FAM-overflow-item i {flex: 0 0 auto;font-size: 14px;opacity: .8;cursor: pointer;transition: opacity .2s ease;}
+.FAM-overflow-item i:hover {opacity: 1;color: #fff!important;}
+#FAM-tab-add {flex: 0 0 auto;}
+.FAM-button {background: var(--deg-1);color: white; }
+.FAM-button:hover { color: var(--color-accent);}
+.FAM-pagination {display: flex;gap: 4px;font-family: var(--font-5);}
+          
+.FAM-tab[draggable="true"] {cursor: grab;}
+.FAM-tab[draggable="true"] .FAM-tab-name {cursor: inherit;}
+.FAM-tab-dragging {opacity: .45;}
+          
+.FAM-chat-label sub1,.FAM-chat-label sub2 {font-family: var(--font-5);font-weight: 500;font-size: 9px;text-transform: uppercase;padding: 1px 4px;}
+
+/* sécurité responsive */
+@media (max-width: 700px)
+{#FAM-tabs .FAM-tab-name {max-width: 95px;}
+#FAM-tab-overflow-menu {width: 210px;}
+}
+
+ #FAM-topic-search-modal {position: absolute;inset: 0;z-index: 200;background: rgba(10, 10, 18, 0.18);backdrop-filter: blur(2px);display: flex;align-items: flex-start;justify-content: center;padding: 70px 18px 18px;}
+#FAM-topic-search-box {width: min(560px, 100%);border-radius: 18px;background: var(--fond-c2);box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);overflow: hidden;}
+#FAM-topic-search-header {display: flex;align-items: center;gap: 10px;padding: 14px;border-bottom: 1px solid rgba(0, 0, 0, 0.08);}
+#FAM-topic-search-input {flex: 1 1 auto;min-width: 0;border: 0;background: transparent;outline: none;font-size: 14px;line-height: 1.2;color: #2d2d36;}
+#FAM-topic-search-close {flex: 0 0 auto;border: 0;background: transparent;cursor: pointer;font-size: 14px;line-height: 1;color: #6c6c76;}
+#FAM-topic-search-results {max-height: 420px;overflow: auto;padding: 8px;}
+.FAM-topic-search-result {width: 100%;border: 0;background: transparent;text-align: left;border-radius: 12px;padding: 10px 12px;cursor: pointer;display: flex;flex-direction: column;gap: 3px;}
+.FAM-topic-search-result:hover {background: rgba(0, 0, 0, 0.05);}
+.FAM-topic-search-result-title {font-size: 14px;line-height: 1.25;color: var(--text-c3);}
+.FAM-topic-search-result-date {font-size: 11px;line-height: 1.2;opacity: 0.65;}
+.FAM-topic-search-empty {padding: 18px 12px;text-align: center;font-size: 13px;opacity: 0.7;}
+.FAM-topic-search-result mark {background: var(--color-btns);color: inherit;}
