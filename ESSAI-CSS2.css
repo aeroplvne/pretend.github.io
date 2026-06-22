@@ -1,3 +1,162 @@
+.br-comment-author {
+    font-weight: 500!important;
+    font-family: var(--font-7)!important;
+    font-size: 14px!important;
+    text-transform: lowercase!important;
+}
+
+.br-comment-mod a {
+    font-size:0px!important;
+}
+.br-comment-mod a:before {
+    display: block;
+    color: var(--border-c3) !important;
+    font-family: 'bootstrap-icons';
+    margin-right: 3px;
+    font-size: 9px;
+    font-style: normal;
+    width: 10px;
+    height: 11px;
+    padding: 4px;
+    outline: 1px solid var(--border-c3);
+}
+
+.br-comment-mod a:nth-child(1):before {
+    content: "\F6B0 ";
+}
+.br-comment-mod a:nth-child(2):before {
+    content: "\F4CB ";
+}
+.br-comment-mod a:nth-child(3):before {
+    content: "\F62A ";
+}
+.br-comment-mod a:nth-child(4):before {
+    content: "\F64C ";
+}
+.br-comment-actions .i_icon_mention{position: absolute;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    font-size: 9px;
+    font-weight: 400;
+    font-family: var(--font-2);
+    top: -22px;
+    left: -36px;}
+.br-comment-actions .fa_like_div {position: absolute!important;
+    top: -23px!important;
+    left: -26px!important;margin:0!important;}
+.br-comment-actions .rep-button{position: relative !important;
+    top: -21px;
+    left: -25px;
+    width: 39px;
+    height: 18px;
+    margin: 0 !important;
+    padding: 3px 0 !important;
+    border-radius: 0 !important;
+    color: var(--border-c3) !important;
+    background-color: transparent !important;}
+.br-comment-actions .fa_liked{position: relative !important;
+    top: -37px !important;
+    left: -24px;
+    width: 40px;
+    margin: 0 !important;
+    padding: 5px 0 !important;}
+
+
+.br-comments {
+    margin-top: 20px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+}
+
+.br-comment {
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.br-comment-text .post_content{padding:20px!important;font-size:12px!important;}
+
+.br-comment-text .signature_div{display:none!important;}
+
+.br-comment-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 1px solid var(--border-c3);
+    outline-offset: 2px;
+    flex-shrink: 0;
+}
+
+.br-comment-main {
+    flex: 1;
+    outline: 1px solid var(--border-c3);
+    outline-offset: 2px;
+}
+
+.br-comment-head {
+    display: flex;
+    margin: 5px 5px 4px 20px;
+    align-items: center;
+}
+
+.br-comment-author {
+    font-weight: 700;
+    width: 280px;
+}
+
+.br-comment-date,.br-comment-date a {
+    opacity: .6;
+    font-size: 9px;
+    text-align: right;
+    width: 150px;
+    color: var(--para-c1);
+    font-family: var(--font-1) !important;
+    text-transform: lowercase;
+    font-size: 9px;
+}
+
+.br-comment-text p{
+    margin:0;
+}
+
+.br-comment-actions {
+    display: flex;
+    position: absolute;
+    gap: 12px;
+    align-items: center;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+
+.br-comment-actions a{
+    text-decoration:none;
+}
+
+.br-comment-mod {
+    display: flex;
+    position: absolute;
+    top: -96px;
+    left: 469px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.br-hidden-post{
+    display:none !important;
+}
+
+/* supprime les barres profil parasites */
+
+.br-hidden-post .messaging,
+.br-hidden-post .sujet_linksprof{
+    display:none !important;
+}
+
 
  /*--------------SOCIALS - SWISH 1.0 / by silverose--------------------*/
 
