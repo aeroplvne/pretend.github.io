@@ -198,7 +198,19 @@ bs4{font-family:montserrat;font-size:12px;color:#444;text-transform:lowercase}
 
 
 /* FICHE PRÉSENTATION */
-.pres_general{margin-top:10px;display:flex;width:520px;flex-wrap:wrap;padding:15px;background:var(--fond-c1)}
+.pres_general{.pres_general {
+    margin-top: 10px;
+    display: flex;
+    width: 520px;
+    flex-wrap: wrap;
+    padding: 15px;
+    outline: 1px solid var(--border-c3);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: var(--fondbg2);
+}}
 .pres_img{width:200px;padding:0 0 0 10px;height:320px}
 .pres_img img{width:200px;height:320px}
 .pres_infog{width:300px;height:320px;padding:0 0 0 10px}
