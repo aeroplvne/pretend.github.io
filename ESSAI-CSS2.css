@@ -263,13 +263,18 @@ h2.pres_irltt{width:520px;margin:0 10px 10px 10px;margin-top:-10px!important;pad
 .linkme_like i{font-size:11px;font-style:italic;font-weight:350;}
 
 /*REPERTOIRE*/
-.reper_general h3{width:100%;border-bottom:1px solid var(--border-c1);font-family:var(--font-2);font-size:10px;font-weight:400;margin-bottom:5px;text-transform:uppercase;color:var(--text-c1);text-align:right;padding-bottom:5px}
+.reper_general h3{width:100%;border-bottom:1px solid var(--border-c1);font-family:var(--font-2);font-size:10px;font-weight:400;margin-bottom:5px;text-transform:uppercase;color:var(--text-c1);text-align:right;padding-bottom:5px;}
 .reper_name{margin-top:10px;width:520px;border-bottom:1px solid var(--border-c1);margin-top:20px}
 .reper_name h2{color: var(--text-c3);width: 100%;font-family: var(--font-7);font-size: 21px;font-weight: 500;margin: 8px 0 0 0;padding: 0;text-transform: lowercase;}
 .reper_sstt{font-size:9px;font-weight:400;line-height:11px;color:var(--text-c2);font-family:var(--font-4);text-transform:uppercase;width:520px;padding:0 0 10px}
 .reper_sstt:before{content:'[ '}
 .reper_sstt:after{content:' ]'}
-.reper_general{width:500px;padding:10px;background:var(--fond-c1);margin-top:-10px;text-align:justify}
+.reper_general{width:500px;padding:10px;outline: 1px solid var(--border-c1);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: var(--fondbg2);margin-top:-10px;text-align:justify}
 .reper_img{display:flex;width:500px;flex-wrap:wrap}
 .reper_img img{height:70px;width:135px;object-fit: cover;}
 .reper_img .reper_img2{height:70px;margin:0 5px;width:220px}
