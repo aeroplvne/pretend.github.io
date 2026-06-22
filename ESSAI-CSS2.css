@@ -225,7 +225,12 @@ h2.pres_librett{width:520px;margin:0 10px 10px 10px;padding:5px 0;font-family:va
 .pres_libre::-webkit-scrollbar{background-color:transparent;height:0;width:0}
 .pres_libre2{font-family:var(--font-1);font-weight:350;font-size:12px;margin:0 10px;padding:15px;background:var(--fond-c2);text-align:justify;color:var(--para-c1);line-height:19px;}
 h2.pres_irltt{width:520px;margin:0 10px 10px 10px;margin-top:-10px!important;padding:5px 0;font-family:var(--font-5);color: var(--text-c1);font-size:11px;font-weight:400;margin-top:8px;text-transform:uppercase;text-align:right;border-bottom:1px solid var(--border-c1)}
-.pres_irl{font-size:12px;text-align:justify;padding:0 10px;font-weight:350}
+.pres_irl{font-size: 12px;
+    text-align: justify;
+    font-weight: 350;
+    margin: 0 10px;
+    padding: 15px;
+    background: var(--fond-c2);}
 
 
 /*LINKME*/
