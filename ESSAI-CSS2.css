@@ -613,7 +613,7 @@ color:transparent;background: var(--deg-3);
     height: 24px;
     top: 8px;
     mix-blend-mode: difference;
-    outline: 1px solid #fff;
+    border: 1px solid #fff;
 }
 .ntf_button-text {
     color: #fff;
@@ -627,7 +627,6 @@ color:transparent;background: var(--deg-3);
     position: relative;
     height: 22px;
     align-content: center;
-    outline-offset: 0px;
     -webkit-font-smoothing: antialiased;
 }
 .unread_count{left: -3px;position:relative;background: #fff !important;color: #000 !important;border-radius:5px;width:25px;display:grid;place-items:center;font-weight:600;font-size:12px;scale:1;opacity:1;aspect-ratio:1;transition:scale ease-out .2s}
