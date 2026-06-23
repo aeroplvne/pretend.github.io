@@ -613,7 +613,7 @@ color:transparent;background: var(--deg-3);
     height: 24px;
     top: 8px;
     mix-blend-mode: difference;
-    border: 1px solid #fff;
+    border: 1px solid #fff; 
 }
 .ntf_button-text {
     color: #fff;
