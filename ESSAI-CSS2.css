@@ -614,8 +614,6 @@ color:transparent;background: var(--deg-3);
     top: 8px;
     mix-blend-mode: difference;
     outline: 1px solid #fff;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
 }
 .ntf_button-text {
     color: #fff;
