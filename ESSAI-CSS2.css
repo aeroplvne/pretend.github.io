@@ -612,9 +612,7 @@ color:transparent;background: var(--deg-3);
     height: 17px;
     height: 24px;
     top: 8px;
-    mix-blend-mode: difference;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);}
+    mix-blend-mode: difference;}
 .ntf_button-text{color: #fff;
     font-family: var(--font-5);
     font-size: 9px;
