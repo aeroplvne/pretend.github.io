@@ -612,6 +612,7 @@ color:transparent;background: var(--deg-3);
     right: 10px;
     height: 24px;
     top: 8px;
+    width: 64px;
     mix-blend-mode: difference;
     border: 1px solid #fff; 
 }
