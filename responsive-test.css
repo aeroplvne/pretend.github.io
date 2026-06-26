@@ -31,7 +31,7 @@
   
   .navig {left: 0%!important;
     margin-left: 0!important;
-    background: var(--nav)!important;
+    background: transparent!important;
     backdrop-filter: blur(25px) !important;
     position: fixed!important;
     top: 0!important;
