@@ -34,7 +34,7 @@
     mix-blend-mode: normal !important;
     border: 0px !important;
 }
-  
+  .ntf_button-text:after{display:none!important;}
   #quick_reply td.row2{width:80%!important;}
   .sceditor-container.ltr.sourceMode,.sceditor-container.ltr.wysiwygMode{height:400px!important;width: 100% !important;max-width: 828px !important;}
   
