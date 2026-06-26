@@ -29,8 +29,28 @@
   #quick_reply td.row2{width:80%!important;}
   .sceditor-container.ltr.sourceMode,.sceditor-container.ltr.wysiwygMode{height:400px!important;width: 100% !important;max-width: 828px !important;}
   
-  .navig {display: flex!important;height:50px!important;padding-top: 21px!important;padding-left: 90px!important;}
-  a.mainmenu{font-size:21px!important;height:17px!important;}
+  .navig {left: 0%;
+    margin-left: 0;
+    background: var(--nav);
+    backdrop-filter: blur(0rem);
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    mix-blend-mode: normal;        display: flex !important;
+        height: 50px !important;
+        padding-top: 21px !important;
+        padding-left: 90px !important;}
+  .navig div {
+    width: auto;
+    position: relative;
+    height: auto;
+    z-index: 998;
+    top: 1px;
+    outline: 0px;
+}
+  .navig2,.notif2{display:none;}
+  a.mainmenu{font-size:21px!important;height:17px!important;color:var(--pa_c1);}
   .cat-slider{display:none!important;}
   .theme-switch-wrapper{top:38px!important;}
   .theme-switch{height:30px!important;width:30px!important;}
