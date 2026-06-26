@@ -2,7 +2,7 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-  
+  body{margin-top:65px!important;}
   .cate_lastpp .btn-lastpost{position: absolute!important;top: 163px!important;right: 110px!important;}
   .cate_lastpp .btn-lastpost i{font-size: 30px!important;}
   
@@ -25,6 +25,15 @@
   .notif_text {font-size: 20px !important;}
   .notif_text a,.notif_text a strong,.notif_text .topic_watch a{font-size: 24px !important;}
   .notif_time{font-size: 16px !important;}
+
+  #notiffi_button {
+    right: 30px !important;
+    height: 24px;
+    top: 0 !important;
+    width: auto !important;
+    mix-blend-mode: normal !important;
+    border: 0px !important;
+}
   
   #quick_reply td.row2{width:80%!important;}
   .sceditor-container.ltr.sourceMode,.sceditor-container.ltr.wysiwygMode{height:400px!important;width: 100% !important;max-width: 828px !important;}
@@ -57,8 +66,8 @@
   .input:checked + .slider:before{transform: translateX(0px)!important;}
   .slider:before{height:20px!important;width:20px!important;bottom: 5px!important;left: 5px!important;}
   #fa_menu{display:none!important;}
-      .ntf_button-text{font-size: 21px!important;padding: 37px 3px 0 3px!important;}
-      .unread_count{top: 18px!important;scale: 1.8!important;}
+      .ntf_button-text{color:var(--pa_c1)!importantfont-size: 21px!important;padding: 37px 3px 0 3px!important;}
+      .unread_count{top: 20px!important;scale: 1.8!important;}
       
       
   .bodylinewidth{width:100%!important;padding-bottom: 80px!important;}
