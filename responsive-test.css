@@ -50,7 +50,7 @@
     outline: 0px!important;
 }
   .navig2,.notif2{display:none!important;}
-  a.mainmenu{font-size:21px!important;height:17px!important;color:var(--pa_c1);}
+  a.mainmenu{font-size:21px!important;height:17px!important;color:var(--pa_c1)!important;}
   .cat-slider{display:none!important;}
   .theme-switch-wrapper{top:38px!important;}
   .theme-switch{height:30px!important;width:30px!important;}
