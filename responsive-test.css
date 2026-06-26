@@ -37,7 +37,7 @@
     top: 0!important;
     z-index: 200!important;
     width: 100%!important;
-    mix-blend-mode: normal;        display: flex !important;
+    mix-blend-mode: normal!important;        display: flex !important;
         height: 50px !important;
         padding-top: 21px !important;
         padding-left: 90px !important;}
