@@ -66,7 +66,7 @@
   .input:checked + .slider:before{transform: translateX(0px)!important;}
   .slider:before{height:20px!important;width:20px!important;bottom: 5px!important;left: 5px!important;}
   #fa_menu{display:none!important;}
-      .ntf_button-text{color:var(--pa_c1)!importantfont-size: 21px!important;padding: 37px 3px 0 3px!important;}
+      .ntf_button-text{color:var(--pa_c1)!important;font-size: 21px!important;padding: 37px 3px 0 3px!important;}
       .unread_count{top: 20px!important;scale: 1.8!important;}
       
       
