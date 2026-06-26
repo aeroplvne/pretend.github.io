@@ -29,27 +29,27 @@
   #quick_reply td.row2{width:80%!important;}
   .sceditor-container.ltr.sourceMode,.sceditor-container.ltr.wysiwygMode{height:400px!important;width: 100% !important;max-width: 828px !important;}
   
-  .navig {left: 0%;
-    margin-left: 0;
-    background: var(--nav);
-    backdrop-filter: blur(0rem);
-    position: fixed;
-    top: 0;
-    z-index: 200;
-    width: 100%;
+  .navig {left: 0%!important;
+    margin-left: 0!important;
+    background: var(--nav)!important;
+    backdrop-filter: blur(0rem)!important;
+    position: fixed!important;
+    top: 0!important;
+    z-index: 200!important;
+    width: 100%!important;
     mix-blend-mode: normal;        display: flex !important;
         height: 50px !important;
         padding-top: 21px !important;
         padding-left: 90px !important;}
   .navig div {
-    width: auto;
-    position: relative;
-    height: auto;
-    z-index: 998;
-    top: 1px;
-    outline: 0px;
+    width: auto!important;
+    position: relative!important;
+    height: auto!important;
+    z-index: 998!important;
+    top: 1px!important;
+    outline: 0px!important;
 }
-  .navig2,.notif2{display:none;}
+  .navig2,.notif2{display:none!important;}
   a.mainmenu{font-size:21px!important;height:17px!important;color:var(--pa_c1);}
   .cat-slider{display:none!important;}
   .theme-switch-wrapper{top:38px!important;}
