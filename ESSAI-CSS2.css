@@ -415,7 +415,7 @@ cc5{color:var(--text-c6)!important;font-weight:400!important;}
 cc6{background: var(--deg-3);background-clip: text;color: transparent;font-weight:400!important;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 cc7{background: var(--deg-4);background-clip: text;color: transparent;font-weight:400!important;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 a1{background: var(--text-c1);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: var(--pa_c6);}
-a2{background: var(--text-c2);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: #181818;}
+a2{background: var(--text-c2);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: #fff;}
 a3{background: var(--text-c5);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: #fff;}
 a4{background: var(--text-c4);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: #fff;}
 a5{background: var(--pa_c6);padding: 2px 10px;font-size: 10px;font-family: var(--font-2);text-transform: uppercase;font-weight: 600;color: var(--text-c1);}
