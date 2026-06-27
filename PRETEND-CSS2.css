@@ -151,8 +151,19 @@ x-bookmark-list input[type="checkbox"]:not(:checked) + div label {background: va
 .forum_desc subteam1 {color: #fff;font-family: var(--font-5);font-weight: 500;font-size: 9px;text-transform: uppercase;background: #d6a2b9;padding: 1px 4px 1px 4px;}
 .forum_desc subteam2 {color: #fff;font-family: var(--font-5);font-weight: 500;font-size: 9px;text-transform: uppercase;background: #77b3bf;padding: 1px 4px 1px 4px;}
 .forumtitle numbtt1 {background: #d6a2b9;font-family: var(--font-5);font-size: 10px;color: #fff;position: relative;display: block;margin-left: 165px;margin-top: -7px;text-align: center;width: 23px;padding: 0 4px;}
-.forumtitle numbtt2 {background: #77b3bf;font-family: var(--font-5);font-size: 10px;color: #fff;position: relative;display: block;margin-left: 165px;margin-top: -7px;text-align: center;width: 23px;padding: 0 4px;}
-
+.forumtitle numbtt2 {
+    background: #77b3bf;
+    font-family: var(--font-5);
+    font-size: 11px;
+    position: relative;
+    display: block;
+    margin-left: 165px;
+    margin-top: -7px;
+    text-align: center;
+    width: 23px;
+    padding: 1px 4px;
+}
+.forumtitle numbtt2 i:before{color:#fff!important;}
 
 
 /*COULEURS*/
