@@ -1,8 +1,3 @@
-.tleLMBER{margin:0;width:1080px;border-bottom:1px solid var(--border-c1)}
-.tleLMBER td,.tleLMBER #text_editor_iframe,.tleLMBER input.post,.tleLMBER select,.tleLMBER textarea.inputbox,.tleLMBER input.liteoption,.tleLMBER .external-module .external-more a{font-size:10px!important;}
-.tleLMBBER th.nowrap h2{font-family: var(--font-5)!important;text-transform:uppercase;color:var(--pa_c1);font-weight: 500!important;font-size: 11px!important;}
-.tleLMBER th{float: left;width: 100%;height: 12px;border-bottom: 1px solid var(--border-c1) !important;padding-top: 10px !important;padding-bottom: 10px !important;margin-bottom: 10px;text-align: right;}
-.mmlist_tt{font-family: var(--font-2);font-size: 9px;font-weight: 400;text-transform: uppercase;padding: 0 4px 0px 10px;}
 
 
 
@@ -343,6 +338,137 @@ h2.pres_lientt{width:520px;margin:10px 10px 10px 10px;padding:5px 0;font-family:
 .linkme_like h3 a{font-size: 12px;color:var(--text-c2)!important;font-weight:600!important;font-family:var(--font-3);transition:0.1s linear;}
 .linkme_like h3 a:hover{color:var(--text-c1)!important;;transition:0.1s linear;}
 .linkme_like i{font-size:11px;font-style:italic;font-weight:350;}
+
+/* AFFICHAGE MEMBERLIST */
+
+.members_all {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 67px;
+    gap: 5px;
+  background-image: var(--fondbg2);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  outline: 1px solid var(--border-c1);
+}
+.cadre-member {
+    width: 185px;
+    outline: 1px solid var(--border-c1);
+}
+.member-name {
+    padding: 4px 0px;
+}
+.member-name a{text-transform: lowercase;
+    font-family: var(--font-7) !important;
+    font-weight: 500;
+    font-size: 12px;}
+.member-pseudo{font-family: var(--font-4);
+    font-size: 10px;
+    line-height: 9px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: lowercase;
+    position: absolute;
+    width: 185px;
+    top: 176px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border-c1);
+    color: #fff;}
+.member-pseudo span{font-style: italic;
+    color: #fff;
+    font-family: var(--font-7);
+    font-weight: 500 !important;
+    font-size: 14px;}
+.avatar-link, .avatar-link img {
+    width: 185px;
+    height: 270px;
+    object-fit: cover;
+}
+.member-profil-link{width: 185px;
+    z-index: 1;
+    height: 270px;}
+.member-post{position: absolute;
+    width: 185px;
+    top: 92px;
+    font-family: var(--font-7);
+    font-size: 36px;
+    color: #fff;
+    line-height: 26px;
+    font-weight: 500;}
+.member-post span{font-family: var(--font-5);
+    font-size: 9px;
+    text-transform: uppercase;}
+.member-mp {
+    font-family: var(--font-5);
+    font-weight: 500;
+    font-size: 9px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 240px;
+    width: 185px;
+    color: #fff;
+    z-index: 2;
+}
+.member-mp a{color: #fff;
+    padding: 2px 3px;}
+.member-logged {
+  width: 185px;
+    position: absolute;
+    top: 13px;
+    font-family: var(--font-1) !important;
+    font-size: 9px !important;
+    text-align: center;
+    font-weight: 300;
+    color:#fff;
+    text-transform: lowercase;
+    background: none !important;border-bottom: 1px solid var(--border-c1);
+    padding-bottom: 13px;
+}
+.member-logged span{
+    font-family: var(--font-5);
+    font-weight: 500;
+    font-size: 9px;
+    text-transform: uppercase;}
+.member-avatar-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* overlay caché par défaut */
+.member-overlay {
+ position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--backmember);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    padding: 5px;
+}
+
+/* apparition au survol */
+.member-avatar-wrapper:hover .member-overlay {
+  opacity: 1;
+}
+
+
+
+.tleLMBER{margin:0;width:1080px;border-bottom:1px solid var(--border-c1)}
+.tleLMBER td,.tleLMBER #text_editor_iframe,.tleLMBER input.post,.tleLMBER select,.tleLMBER textarea.inputbox,.tleLMBER input.liteoption,.tleLMBER .external-module .external-more a{font-size:10px!important;}
+.tleLMBBER th.nowrap h2{font-family: var(--font-5)!important;text-transform:uppercase;color:var(--pa_c1);font-weight: 500!important;font-size: 11px!important;}
+.tleLMBER th{float: left;width: 100%;height: 12px;border-bottom: 1px solid var(--border-c1) !important;padding-top: 10px !important;padding-bottom: 10px !important;margin-bottom: 10px;text-align: right;}
+.mmlist_tt{font-family: var(--font-2);font-size: 9px;font-weight: 400;text-transform: uppercase;padding: 0 4px 0px 10px;}
+
 
 /*REPERTOIRE*/
 .reper_general h3{width:100%;border-bottom:1px solid var(--border-c1);font-family:var(--font-2);font-size:10px;font-weight:400;margin-bottom:5px;text-transform:uppercase;color:var(--text-c1);text-align:right;padding-bottom:5px;}
