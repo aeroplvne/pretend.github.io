@@ -501,54 +501,6 @@ deg2{background: var(--deg-4);background-clip: text;color: transparent;-webkit-b
 .rp2_main2 a.mentiontag:hover{color: var(--text-c2)!important;transition: 0.1s linear!important;}
 .rp2_main2 i{background-clip: text!important;color: transparent;-webkit-background-clip: text!important;-webkit-text-fill-color: transparent!important;background:var(--deg-4);}
 
-/* AFFICHAGE MEMBRES */
-.member-avatar-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-/* overlay caché par défaut */
-.member-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  background: rgba(0, 0, 0, 0.65);
-  color: #fff;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  opacity: 0;
-  transition: opacity 0.25s ease;
-  text-align: center;
-  padding: 5px;
-}
-
-/* apparition au survol */
-.member-avatar-wrapper:hover .member-overlay {
-  opacity: 1;
-}
-
-/* optionnel : styliser nom et pseudo */
-.member-name {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.member-pseudo-cadre {
-  margin-bottom: 8px;
-}
-
-.tleLMBER{margin:0;width:1080px;border-bottom:1px solid var(--border-c1)}
-.tleLMBER td,.tleLMBER #text_editor_iframe,.tleLMBER input.post,.tleLMBER select,.tleLMBER textarea.inputbox,.tleLMBER input.liteoption,.tleLMBER .external-module .external-more a{font-size:10px!important;}
-.tleLMBBER th.nowrap h2{font-family: var(--font-5)!important;text-transform:uppercase;color:var(--pa_c1);font-weight: 500!important;font-size: 11px!important;}
-.tleLMBER th{float: left;width: 100%;height: 12px;border-bottom: 1px solid var(--border-c1) !important;padding-top: 10px !important;padding-bottom: 10px !important;margin-bottom: 10px;text-align: right;}
-.mmlist_tt{font-family: var(--font-2);font-size: 9px;font-weight: 400;text-transform: uppercase;padding: 0 4px 0px 10px;}
 
 
 /*BLOG*/
