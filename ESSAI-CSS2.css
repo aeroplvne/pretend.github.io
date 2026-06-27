@@ -1,3 +1,14 @@
+.tleLMBER{margin:0;width:1080px;border-bottom:1px solid var(--border-c1)}
+.tleLMBER td,.tleLMBER #text_editor_iframe,.tleLMBER input.post,.tleLMBER select,.tleLMBER textarea.inputbox,.tleLMBER input.liteoption,.tleLMBER .external-module .external-more a{font-size:10px!important;}
+.tleLMBBER th.nowrap h2{font-family: var(--font-5)!important;text-transform:uppercase;color:var(--pa_c1);font-weight: 500!important;font-size: 11px!important;}
+.tleLMBER th{float: left;width: 100%;height: 12px;border-bottom: 1px solid var(--border-c1) !important;padding-top: 10px !important;padding-bottom: 10px !important;margin-bottom: 10px;text-align: right;}
+.mmlist_tt{font-family: var(--font-2);font-size: 9px;font-weight: 400;text-transform: uppercase;padding: 0 4px 0px 10px;}
+
+
+
+
+
+
 .br-comment-author {
     font-weight: 500!important;
     font-family: var(--font-7)!important;
