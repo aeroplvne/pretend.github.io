@@ -102,8 +102,8 @@
   .forumtitle maintt1,.forumtitle maintt2{font-size:33px!important;padding: 0 0 0 47px !important;}
        .forumtitle maintt1:hover{color:var(--pa_c1)!important;transition:0.1s linear;}
 .forumtitle maintt2:hover{color:var(--pa_c1)!important;transition:0.1s linear;}
-  .forum_desc sub1,.forum_desc sub2{font-size: 20px!important;}
-  sub1::after, sub2::after{display:none!important;}
+  .forum_desc sub1,.forum_desc sub2,.forum_desc sub3{font-size: 20px!important;}
+  sub1::after, sub2::after,sub3::after{display:none!important;}
   .forum_desc{width: 67%!important;height: 145px!important;}
   .forum_desc p{height: 108px!important;font-size: 26px!important;line-height:27px!important;}
   .cate_sslink {width: 70%!important;border-bottom: 0px!important;padding: 15px 11px 4px 18px!important;}
