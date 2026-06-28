@@ -657,6 +657,7 @@ div.blog_comment-title.gensmall{color:var(--para-c1);font-family:var(--font-1);t
 .cate_mainc .blog_comments a strong,div.blog_comment-title.gensmall a strong{font-family:var(--font-3)!important;font-weight:600;font-size:11px;font-style:italic}
 .cate_mainc .blog_comments .gensmall{color:var(--para-c1);font-family:var(--font-1);text-transform:lowercase;font-size:10px}
 .cate_mainc .blog_comments{float:left;margin-top: 16px;}
+.blog_comment-all{margin: 0 0 0 247px;}
 
 
 
