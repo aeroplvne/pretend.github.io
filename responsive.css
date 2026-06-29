@@ -28,10 +28,10 @@
 
   #c2 .cate_corps:nth-child(5) .forum_avatar, #c2 .cate_corps:nth-child(5) .lastpostavatar {
     top: 74px !important;
-        left: 760px !important;
+        left: 681px !important;
 }
   #c2 .cate_corps:nth-child(5) .cate_lastpp {
-    left: 873px!important;
+    left: -36px!important;
 }
 
   .cate_sslink3 a {font-size: 20px!important;margin: 0px 3px 0 18px!important;padding: 12px 3px!important;}
