@@ -250,4 +250,8 @@
   #c4 .cate_corps:nth-child(5){
     margin-left:0%!important;
 }
+  /* cache tous les personnages */
+.switcheroo__squircle {
+    display: block!important;
+}
 }
