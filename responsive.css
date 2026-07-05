@@ -185,7 +185,7 @@
   
   .switcheroo{height:80px!important;}
   .switcheroo__squircle{width:47px!important;height:70px!important;margin:0 15px!important;}
-  .switcheroo__squircles:before{font-size:18px!important;margin:24px 6px 0 0!important;}
+  .switcheroo__squircles:before{font-size:18px!important;margin:0!important;gap: 10px;}
   .boutonhautbas,body .uwy .uai, body .uwy .ulsti{display:none!important;}
   #FAM-button-open{width: 42px !important;height: 42px !important;bottom: 102px !important;font-size: 20px !important;}
   #FAM{height: 90% !important;bottom: 80px !important;z-index: 999 !important;max-width: 90%;right: 10% !important;}
@@ -252,6 +252,6 @@
 }
   /* cache tous les personnages */
 .switcheroo__squircle {
-    display: block!important;
+    display: block!important;opacity: 1!important;
 }
 }
