@@ -24,17 +24,10 @@
     height: 212px !important;
 }
 
-  #c2 .cate_corps:nth-child(5) .forum_desc p {height: 173px !important;}
+  #c2 .cate_corps:nth-child(5) .forum_desc p {height: 173px !important;
+        width: 659px!important;}
 
-  #c2 .cate_corps:nth-child(5) .forum_avatar, #c2 .cate_corps:nth-child(5) .lastpostavatar {
-    top: 74px !important;
-       left: 755px !important;
-}
-  #c2 .cate_corps:nth-child(5) .cate_lastpp {
-    left: 869px!important;
-}
-
-  .cate_sslink3 a {font-size: 20px!important;margin: 0px 3px 0 18px!important;padding: 12px 3px!important;}
+  .cate_sslink3 a {display:none!important;}
 
   button.toggle-panel,.sceditor-button i.bi{font-size:30px!important;}
   .sceditor-button{width:30px!important;height:30px!important;}
