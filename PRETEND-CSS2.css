@@ -1,4 +1,36 @@
 
+/*QUI EST EN LIGNE*/
+.qeel_general{float:left;width:1080px;height:229px;padding:5px 0px;position:relative;z-index:4;}
+.qeel_img{width: 354px;height: 229px;float: left;background-image:var(--qeel_img);background-size:cover;margin: 0 5px 0 0;position: relative;z-index:3;}
+.qeel_all{float:left;width:720px;margin:0;background:var(--fond-c2);height:229px;outline: 1px solid var(--border-c1);}
+.qeel_col1{float:left;width:300px;margin:0;padding:0 20px;height:200px}
+.qeel_lastsub{float: left;width: 100%;border-bottom: 1px solid var(--border-c1);margin-top: 20px;}
+.qeel_lastmmtext{color: var(--pa_c1);padding: 12px 0 0 0px;font-size: 9px;font-family: var(--font-5);text-transform: uppercase;}
+#qeel_lastmm strong{font-family: var(--font-7) !important;font-weight: 500;font-size: 11px;text-transform: lowercase;}
+#qeel_lastmmimg img{float: left; width: 45px;height: 45px;border: 2px solid var(--text-c1);object-fit: cover;filter: grayscale(1);margin: 0 25px 10px 20px;}
+.qeel_connectedlist h3{float: left;width: 100%;font-family: var(--font-5);font-size: 10px;font-weight: 400;color: var(--pa_c1);text-transform: uppercase;margin: 11px 0 10px 0;}
+.qeel_connectedlist a{font-family:var(--font-3)!important;font-weight:300;font-size:11px;text-transform:lowercase;}
+#qeel_usersonline{float: left;height: 60px;padding:0 3px 0 0;font-weight: 400;font-size: 12px;text-transform: lowercase;overflow: auto;text-align: justify;color: var(--para-c1);}
+#qeel_usersonline a strong, #qeel_usersonline a {font-family: var(--font-7) !important;font-weight: 500;font-size: 12px;text-transform: lowercase;}
+#qeel_connectednb{float: left;color: var(--para-c1);font-size: 8px;width: 100%;font-family: var(--font-5);text-transform: uppercase;text-align: center;padding: 7px 0;border-top: 1px solid var(--border-c1);}
+.qeel_col2{float:left;width:340px;margin:0;padding:0 20px;height:200px}
+.qeel_stats{float: left;width: 330px;text-align: right;color: var(--para-c1);font-size: 12px;font-family: var(--font-5);text-transform: uppercase;margin-top: 30px;padding: 0px 10px 18px 0;border-bottom: 1px solid var(--border-c1);}
+.qeel_lastlist{float: left;width: 100%;height:80px;text-align:justify;font-family:var(--font-3)!important;font-weight:200;font-size:12px;text-transform:lowercase;overflow:auto;}
+.qeel_lastlist a{font-family: var(--font-7) !important;font-weight: 500;font-size: 12px;text-transform: lowercase;}
+.qeel_last h3{float: left;width: 100%;font-family: var(--font-5);font-size: 10px;font-weight: 400;color: var(--pa_c1);text-transform: uppercase;margin: 11px 0 10px 0;}
+#connected_m td.row1{background:var(--fond-c2)}
+#connected_m .gensmall{color:var(--para-c1)!important;font-size:11px;}
+#connected_m a strong{font-weight:600;}
+
+.qeel_groups{float: left;width: 680px;height:28px;text-align: center;margin: 0 20px;border-top: 1px solid var(--border-c1);overflow: hidden;}
+.qeel_groups a{font-size:61px;font-family:var(--font-7);text-transform:uppercase;font-weight:600;}
+.qeel_grcut{margin-top: -30px;}
+.gr1:hover{color:var(--gr-c1);transition:0.2s linear;}
+.gr2:hover{color:var(--gr-c2);transition:0.2s linear;}
+.gr3:hover{color:var(--gr-c3);transition:0.2s linear;}
+.gr4:hover{color:var(--gr-c4);transition:0.2s linear;}
+.gr1,.gr2,.gr3,.gr4{color:var(--fond-c4);transition:0.2s linear;}
+
 
 
 
