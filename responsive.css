@@ -11,22 +11,7 @@
   .last-post-icon{}
   .last-post-icon img{}
   
-.kissbooth {
-    top:auto!important;
-    right: 10px!important;
-    height: 24px!important;
-    bottom: 92px!important;
-    width: 101px!important;
-    font-size: 17px!important;
-}
 
-  .kissbooth_b {
-    top:auto!important;
-    width: 103px!important;
-    right: 10px!important;
-    height: 38px!important;
-    bottom: 92px!important;
-}
 
   .cate_img4{display:none!important;}
   #c2 .cate_corps:nth-child(5) {
@@ -262,5 +247,22 @@
   /* cache tous les personnages */
 .switcheroo__squircle {
     display: block!important;opacity: 1!important;
+}
+
+  .kissbooth {
+    top:auto!important;
+    right: 10px!important;
+    height: 24px!important;
+    bottom: 92px!important;
+    width: 101px!important;
+    font-size: 17px!important;
+}
+
+  .kissbooth_b {
+    top:auto!important;
+    width: 103px!important;
+    right: 10px!important;
+    height: 38px!important;
+    bottom: 92px!important;
 }
 }
