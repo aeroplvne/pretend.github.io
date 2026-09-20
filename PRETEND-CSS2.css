@@ -935,7 +935,7 @@ color:transparent;background: var(--deg-3);
 .forumtitle maintt1,.forumtitle maintt2{padding:7px 30px 0 45px}
           .cate_img0,.cate_img1,.cate_img3, .cate_img7,.cate_img2{display:none;}
                
-#c5 .cate_corps {width:100%!important;}
+#c5 .cate_corps,#c7 .cate_corps {width:100%!important;}
   #c2 .cate_img4{display:none!important;}
   #c2 .cate_corps:nth-child(5) {width: 100%;
     margin-left: 0px;
