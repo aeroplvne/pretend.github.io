@@ -874,6 +874,8 @@ color:transparent;background: var(--deg-3);
     outline: 1px solid var(--text-c1);
     font-size: 9px !important;
     font-family: var(--font-4) !important;
+    display: grid;
+    place-items: center;
 }
 #notiffi_panel{width:500px;position:fixed;z-index:952;top:0;height:auto!important;right:calc(500px * -1);display:flex;flex-direction:column;gap:10px;align-items:start;background:var(--fond-c2);border-left:1px solid var(--border-c1);border-bottom:1px solid var(--border-c1);padding:15px;padding-top:50px;opacity:0;visibility:hidden;transition:all ease .7s}
 #notiffi_panel.open{right:0;visibility:visible;opacity:1}
