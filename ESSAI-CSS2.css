@@ -828,13 +828,9 @@ color:transparent;background: var(--deg-3);
     display: flex;
     align-items: center;
     position: fixed;
-    z-index: 990;
-    right: 10px;
-    height: 24px;
-    top: 8px;
-    width: 64px;
-    mix-blend-mode: difference;
-    border: 1px solid #fff; 
+    z-index: 1000;
+    left: 30px;
+    top: 105px;
 }
 .ntf_button-text {
     color: #fff;
