@@ -1066,8 +1066,6 @@ div.sceditor-dropdown{background:var(--fond-c2)!important;border:transparent!imp
 
 
 /*toggle*/
-.theme-switch-wrapper{align-items:center;position:fixed;z-index:999;left:30px;margin-top:-22px}
-.theme-switch-wrapper em{font-size:1rem;text-transform:uppercase;font-weight:600;letter-spacing:1px;opacity:.6}
 .theme-switch{display:inline-block;height:15px;position:relative;width:30px}
 .theme-switch input{display:none}
 .slider{background-color:var(--color-accent1);bottom:0;cursor:pointer;left:0;position:absolute;right:0;top:0;transition:.4s}
