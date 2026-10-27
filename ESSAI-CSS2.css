@@ -828,7 +828,7 @@ color:transparent;background: var(--deg-3);
     align-items: center;
     position: fixed;
     z-index: 1000;
-    left: 30px;
+    left: 28px;
     top: 105px;
 }
 .ntf_button-text {
