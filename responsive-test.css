@@ -3,12 +3,11 @@
 .ptd_nav {
     position: fixed!important;
     height: 30px!important;
-    width: calc(100% - 10px)!important;
+    width: 800px !important;
     margin: 5px!important;
     background-color: var(--backfofo)!important;
     top: 0!important;
     z-index: 999!important;
-    max-width: 1110px!important;
     left: 50%!important;
     transform: translateX(-50%)!important;
     outline: 1px solid var(--border-c1)!important;
@@ -37,7 +36,7 @@
         grid-template-columns: repeat(9, auto);
         justify-content: center;
         align-content: center;
-        gap: 12px !important;
+        gap: 18px !important;
         width: 100% !important;
         flex: 1 !important;
         margin: 0 !important;
