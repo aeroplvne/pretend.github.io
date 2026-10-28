@@ -82,23 +82,25 @@
         bottom: 10px;
         height: auto;
         max-height: calc(100dvh - 45px);
-        overflow-y: auto;
-        overflow-x: hidden;
+        overflow-y: auto!important;
+        overflow-x: hidden!important;
     }
 
     #ptd_quick_panel ._links {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 10px;
-        align-content: start;
+        align-content: start!important;
     }
 
-    #ptd_quick_panel ._links h3 {
-        grid-column: 1 / -1;
+    #ptd_quick_panel ._links > * {
+        width: auto !important;
+        min-width: 0!important;
+        grid-column: auto!important;
     }
 
-    #ptd_quick_panel ._links a {
-        min-width: 0;
+    #ptd_quick_panel ._links > h3 {
+        grid-column: 1 / -1!important;
     }
 
 }
