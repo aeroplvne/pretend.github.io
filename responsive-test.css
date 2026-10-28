@@ -1,20 +1,21 @@
 
 @media screen and (max-width: 1130px) {
 .ptd_nav {
-    position: fixed;
-    height: 30px;
-    width: calc(100% - 10px);
-    margin: 5px;
-    background-color: var(--backfofo);
-    top: 0;
-    z-index: 999;
-    outline: 1px solid var(--border-c1);
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}}
+    position: fixed!important;
+    height: 30px!important;
+    width: calc(100% - 10px)!important;
+    margin: 5px!important;
+    background-color: var(--backfofo)!important;
+    top: 0!important;
+    z-index: 999!important;
+    outline: 1px solid var(--border-c1)!important;
+    backdrop-filter: blur(25px)!important;
+    -webkit-backdrop-filter: blur(25px)!important;
+    overflow: hidden!important;
+    display: flex!important;
+    flex-direction: column!important;
+}
+}
 
 
 
