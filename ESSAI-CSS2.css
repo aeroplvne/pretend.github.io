@@ -38,19 +38,6 @@ table{border-spacing: 0px!important;}
 .sujet_profil_infos .label{color:var(--text-c1);font-weight: 400;font-family: var(--font-5);font-size:9px;text-transform:uppercase;}
 .post_content{padding:20px 0;}
 
-/*bouton j'aime*/
-.rep-button i,.rep-button svg{display:none}
-.fa_liked{color:var(--text-c1);}
-.rep-button{color:var(--para-c1)}
-.rep-button,.rep-button:active{cursor:pointer;margin:0;outline:none;position:relative;transition:color .4s;float:left;background-color:var(--fond-c1);border:0px solid var(--border-c1);font-size:9.5px;padding:3px;line-height:1;border-radius:4px;font-weight:700;font-family:var(--font-c1);text-transform:lowercase;margin-top:-18px}
-.fa_like_div{padding-top:0;position: relative;margin-left: 300px;}
-.rep-button,.rep-button:active{box-shadow: none!important;}
-/* Liste des pseudos qui aiment un message */
-.fa_like_list{background-color:transparent;color:var(--para-c1);font-family: var(--font-1);text-transform:lowercase;font-size:9px;text-align:right;margin:10px 0;}
-.fa_like_list a{color:var(--text-c1)!important;font-weight:600!important;transition:0.1s linear;}
-.fa_like_list a:hover{color:var(--text-c2)!important;transition:0.1s linear;}
-.fa_like_others{color:var(--text-c1)!important;font-weight:600!important;transition:0.1s linear;text-decoration:none!important;}
-.fa_like_others:hover{color:var(--text-c2)!important;transition:0.1s linear;text-decoration:none!important;}
 
 /*QUI EST EN LIGNE*/
 .qeel_general{float:left;width:1080px;height:229px;padding:5px 0px;position:relative;z-index:4;}
