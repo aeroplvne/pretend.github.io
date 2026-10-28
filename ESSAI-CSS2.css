@@ -826,10 +826,19 @@ color:transparent;background: var(--deg-3);
     cursor: pointer;
     display: flex;
     align-items: center;
-    position: fixed;
+    justify-content: center;
+    position: relative;
     z-index: 1000;
-    left: 28px;
-    top: 105px;
+    left: auto;
+    top: 100px;
+}
+#notiffi_button > i {
+    font-size: 15px;
+    color: var(--text-c1);
+}
+
+#notiffi_button:hover > i {
+    color: var(--text-c4);
 }
 .ntf_button-text {
     color: #fff;
