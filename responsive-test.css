@@ -76,7 +76,7 @@
     right: 10px !important;
         top: -7px !important;left:auto!important;
 }
-    #ptd_quick_panel {
+     #ptd_quick_panel {
         width: 270px !important;
         top: 40px !important;
         bottom: 10px;
@@ -84,20 +84,20 @@
         max-height: calc(100dvh - 45px);
         overflow-y: auto;
         overflow-x: hidden;
+    }
 
+    #ptd_quick_panel ._links {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 10px;
         align-content: start;
     }
 
-    /* Titres sur toute la largeur */
-    #ptd_quick_panel h3 {
+    #ptd_quick_panel ._links h3 {
         grid-column: 1 / -1;
     }
 
-    /* Deux liens par ligne */
-    #ptd_quick_panel a {
+    #ptd_quick_panel ._links a {
         min-width: 0;
     }
 
