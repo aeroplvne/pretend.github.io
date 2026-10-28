@@ -823,23 +823,18 @@ color:transparent;background: var(--deg-3);
     -webkit-backdrop-filter: blur(2px);
 }
 #notiffi_button {
-    cursor: pointer;
+   cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 1000;
+    margin-top: 15px;
     left: auto;
-    top: 100px;
-}
-#notiffi_button > i {
-    font-size: 15px;
-    color: var(--text-c1);
+    top: auto;
+    flex-shrink: 0;
 }
 
-#notiffi_button:hover > i {
-    color: var(--text-c4);
-}
 .ntf_button-text {
     color: #fff;
     font-family: var(--font-5);
