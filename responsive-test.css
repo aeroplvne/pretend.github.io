@@ -8,6 +8,9 @@
     background-color: var(--backfofo)!important;
     top: 0!important;
     z-index: 999!important;
+    max-width: 1110px!important;
+    left: 50%!important;
+    transform: translateX(-50%)!important;
     outline: 1px solid var(--border-c1)!important;
     backdrop-filter: blur(25px)!important;
     -webkit-backdrop-filter: blur(25px)!important;
