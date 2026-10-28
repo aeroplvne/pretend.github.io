@@ -939,14 +939,16 @@ color:transparent;background: var(--deg-3);
 .notification.alert.up{transform:translateY(0);opacity:1;filter:blur(0);transition:all .5s ease-in-out}
 .no_notification{font-size: 12px !important;font-family: var(--font-4);text-transform: lowercase;}
 .alert_close{background:var(--neutral);font-size:18px;line-height:0;border-radius:100px;aspect-ratio:1;padding:2px}
-#notiffi_button .unread_count:empty::after {
-    content: "0";
-}
 
 #notiffi_button .unread_count {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    display: flex !important;
+    align-items: center!important;
+    justify-content: center!important;
+    text-align: center!important;
+}
+
+#notiffi_button .unread_count:empty::after {
+    content: "0";
 }
           
           .insta-prof-cc,.insta-like-cc,.insta-post-cc,.insta-comnt-cc {background-color: var(--fond-c3)!important;color: var(--text-c1)!important;}
