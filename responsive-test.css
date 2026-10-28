@@ -77,12 +77,24 @@
         top: -7px !important;left:auto!important;
 }
       #ptd_quick_panel {
+          width:270px!important;
         top: 40px !important;
         bottom: 10px;
         height: auto;
         max-height: calc(100dvh - 45px);
         overflow-y: auto;
         overflow-x: hidden;
+    }
+
+    .ptd_nav_links {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ptd_nav_links > h3 {
+        grid-column: 1 / -1;
     }
 }
 
