@@ -1085,7 +1085,7 @@ x-bookmark-list button{border:none!important;color:var(--para-c2)!important;opac
 x-bookmark-list button:before{font-size: 12px!important;content: "\F62A" !important;font-family: bootstrap-icons !important;cursor: pointer!important;}
 x-bookmark-list button:hover{opacity:1.0;color:var(--text-c1)!important;}
 x-bookmark-list button svg{display:none!important;}
-button#bookmark-button{position: fixed;bottom: 10px;padding: 4px 10px !important;font-size: 10px !important;height: 25px !important;font-weight: 400 !important;text-transform: lowercase;font-family: var(--font-1);color: var(--text-c3);margin-left: 9px;background: var(--fond-c2);transition: 0.1s linear !important;border: none;cursor: pointer;}
+button#bookmark-button{position: fixed;bottom: 75px;padding: 4px 10px !important;font-size: 10px !important;height: 25px !important;font-weight: 400 !important;text-transform: lowercase;font-family: var(--font-1);color: var(--text-c3);margin-left: 9px;background: var(--fond-c2);transition: 0.1s linear !important;border: none;cursor: pointer;}
 button#bookmark-button:hover{background: var(--text-c4);transition: 0.1s linear !important;color: #fff;}
 #bookmark-list input[type="checkbox"] + div label{width:20px!important;}
 x-bookmark-list input[type="checkbox"] + div label::after{background-color:transparent!important;}
