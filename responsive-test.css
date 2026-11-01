@@ -324,6 +324,51 @@ body > .ptd_nav #ptd_mobile_menu_button {
         overflow-x: hidden!important;
     }
 
+   /* AVATAR */
+
+body > .ptd_nav .ptd_nav_prof {
+    display: flex !important;
+    position: relative !important;
+    width: 85px !important;
+    height: 125px !important;
+    min-width: 85px !important;
+    flex: 0 0 85px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    order: 1 !important;
+}
+
+body > .ptd_nav .ptd_nav_prof img {
+    display: block !important;
+    position: static !important;
+    width: 85px !important;
+    height: 125px !important;
+    max-width: none !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+}
+
+/* NOTIFICATIONS */
+
+body > .ptd_nav #notiffi_button {
+    display: flex !important;
+    position: relative !important;
+    width: 100px !important;
+    height: 110px !important;
+    flex: 0 0 100px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    order: 2 !important;
+    font-size: 55px !important;
+}
+
+/* MENU */
+
+body > .ptd_nav #ptd_mobile_menu_button {
+    order: 3 !important;
+    flex: 0 0 100px !important;
+}
+
 }
 
 
