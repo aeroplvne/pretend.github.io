@@ -196,6 +196,12 @@ body > .ptd_nav .ptd_nav_links > div:not(.ptd_nav_links2) > a > i {
     text-align: center;
 }
 
+body > .ptd_nav .ptd_nav_links .bi-search::before,
+body > .ptd_nav .ptd_nav_links .bi-book::before,
+body > .ptd_nav .ptd_nav_links .bi-people::before {
+    font-size: 48px !important;
+}
+
 /* ALIGNEMENT DES TEXTES */
 
 body > .ptd_nav .ptd_nav_links > div:not(.ptd_nav_links2) > a {
