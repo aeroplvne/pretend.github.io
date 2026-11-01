@@ -14,7 +14,7 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-   ,body .uwy .uai, body .uwy .ulsti{ display: none!important;}
+   .userway_buttons_wrapper{ display: none!important;}
     /* ======================================
        BARRE PRINCIPALE
        ====================================== */
