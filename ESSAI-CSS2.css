@@ -1,3 +1,24 @@
+/*LISTE DES SUJETS*/
+img[alt="Vous avez posté dans ce sujet."]{width: 2px;height: 13px;background-color: var(--text-c2);margin: 2px 5px 0 0 !important;float: left;}
+.topictitle, h2.topic-title{float:none!important;font-family: var(--font-1);text-transform:lowercase;font-weight:400;font-size:11px;color:var(--para-c1);float: left;margin: 0 6px 0 4px;}
+a.topictitle{font-weight:400;font-size:12px;font-family:var(--font-7);}
+.topictitle a img{padding: 0 0 0 10px;}
+h2.topic-title a{color:var(--text-c1); font-size:13px;font-family:var(--font-7);font-weigh:500;letter-spacing:0px;}
+.ensujet{background:var(--color-sujet);color:var(--color-sujettxt);border:1px solid var(--color-subo);padding:5px;width:90px}
+.cate_mainc{width:800px;font-family: var(--font-1);background: var(--fond-c2);color: var(--para-c1);padding: 8px 0px 5px 20px;height: 50px;margin: 7px 0 0 00px;}
+.cate_mainc .page{font-style:normal;float:left;font-family: var(--font-1);font-size: 11px!important;font-weight:200;text-transform: lowercase;text-align: right;width: 200px;margin: -42px 0 0 490px;}
+.cate_mainc .page a{font-family: var(--font-1);font-size: 10px!important;font-weight:500;text-transform: lowercase;text-align: right;padding:0 2px 0 0;}
+.des{position:absolute;font-style:italic;margin-left:10px;font-size:11px;text-transform:lowercase;}
+.page img{display:none;}
+.cate_autheur{color:var(--para-c1);background: var(--fond-c2);padding: 18px 5px 5px 5px;margin: 7px 40px 0 0;width: 150px;height: 40px;text-transform: lowercase;}
+.cate_autheur a{font-size: 12px;font-family: var(--font-7);font-weight: 500;}
+#off{margin-top:9px;text-transform:lowercase;line-height:12px}
+.cat_imgn{width: 12px;background: var(--fond-c2);height: 63px;margin: 7px 0 0 30px;}
+.cat_imgn img{height: 63px !important;max-height: 63px !important;object-fit: cover !important;width: 12px !important;}
+.cat_repvue{width: 325px;float: left;margin: 0px 0 0 363px;text-align: right;font-size: 9px;text-transform: uppercase;font-family: var(--font-2);color: var(--para-c1);}
+.cate_tt h2 numbtt{position: absolute;margin-top: -32px;margin-left: 27px;color: var(--pa_c3) !important;font-family: var(--font-7);font-weight: 500 !important;font-size: 102px;z-index: 1;}
+.cate_tt h2 maintt1, .cate_tt h2 maintt2{font-style: italic;position: absolute;margin-top: 18px;margin-left: 115px;color: var(--pa_c5) !important;font-family: var(--font-7);font-weight: 500 !important;font-size: 16px;z-index: 2;}
+
 
 /*AFFICHAGE SUJET*/
 .nav,.mess{font-family: var(--font-7);}
