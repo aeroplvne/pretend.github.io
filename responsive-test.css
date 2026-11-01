@@ -495,20 +495,19 @@ body > .ptd_nav #ptd_mobile_menu_button {
     display: none !important;
 }
 
+   /* NOTIFICATIONS MOBILE */
+
+body > .ptd_nav #notiffi_button {
+    font-size: 55px !important;
 }
 
-
-
-
-
-/* ==========================================
-   MENU TÉLÉPHONE — PRETEND
-   ========================================== */
-
-#ptd_mobile_menu_button,
-.ptd_mobile_overlay {
-    display: none;
+body > .ptd_nav #notiffi_button i,
+body > .ptd_nav #notiffi_button i::before {
+    font-size: 55px !important;
 }
+
+}
+
 
 
 
