@@ -111,18 +111,18 @@
 .ptd_nav {
     background: red !important;
 }
-   .ptd_nav {
-    width: calc(100vw - 20px) !important;
+   body > .ptd_nav {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    right: 10px !important;
+    width: auto !important;
     max-width: none !important;
     height: 60px !important;
-    left: 10px !important;
-    right: auto !important;
-    bottom: 10px !important;
-    padding: 0 15px !important;
-    display: flex !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: space-between !important;
+    margin: 0 !important;
+    transform: none !important;
+    box-sizing: border-box !important;
 }
 
     /* ======================================
