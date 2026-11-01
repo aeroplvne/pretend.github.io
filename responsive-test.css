@@ -111,24 +111,19 @@
 .ptd_nav {
     background: red !important;
 }
-    .ptd_nav {
-        position: fixed !important;
-        top: auto !important;
-        bottom: 10px !important;
-        left: 10px !important;
-        right: 10px !important;
-        width: auto !important;
-        height: 60px !important;
-        margin: 0 !important;
-        padding: 0 12px;
-        box-sizing: border-box;
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: center !important;
-        justify-content: space-around !important;
-        overflow: visible !important;
-        z-index: 1100 !important;
-    }
+   .ptd_nav {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    right: auto !important;
+    width: calc(100vw - 20px) !important;
+    max-width: none !important;
+    height: 60px !important;
+    margin: 0 !important;
+    transform: none !important;
+    box-sizing: border-box !important;
+}
 
     /* ======================================
        AVATAR
