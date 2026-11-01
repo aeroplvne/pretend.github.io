@@ -490,6 +490,10 @@ body > .ptd_nav #ptd_mobile_menu_button {
     flex: 0 0 100px !important;
 }
 
+   body > .ptd_nav .ptd_nav_links2 > .cat-theme-switch-wrapper {
+    display: none !important;
+}
+
 }
 
 
