@@ -38,23 +38,30 @@
         z-index: 1100 !important;
     }
 
-    /* AVATAR */
+    /* AVATAR MOBILE */
 
-    body > .ptd_nav .ptd_nav_prof {
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        order: 1;
-        flex-shrink: 0;
-    }
+body > .ptd_nav .ptd_nav_prof {
+    display: flex !important;
+    position: relative !important;
+    width: 85px !important;
+    height: 125px !important;
+    min-width: 85px !important;
+    min-height: 125px !important;
+    flex: 0 0 85px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    order: 1 !important;
+    margin: 0 !important;
+}
 
-    body > .ptd_nav .ptd_nav_prof img {
-        width: 85px !important;
-        height: 125px !important;
-        margin: 0 !important;
-        object-fit: cover;
-        outline-offset: 5px;
-    }
+body > .ptd_nav .ptd_nav_prof img {
+    display: block !important;
+    position: static !important;
+    width: 75px !important;
+    height: 105px !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+}
 
     /* NOTIFICATIONS */
 
