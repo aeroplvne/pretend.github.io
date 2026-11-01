@@ -112,17 +112,17 @@
     background: red !important;
 }
    .ptd_nav {
-    position: fixed !important;
-    top: auto !important;
-    bottom: 10px !important;
-    left: 10px !important;
-    right: auto !important;
     width: calc(100vw - 20px) !important;
     max-width: none !important;
     height: 60px !important;
-    margin: 0 !important;
-    transform: none !important;
-    box-sizing: border-box !important;
+    left: 10px !important;
+    right: auto !important;
+    bottom: 10px !important;
+    padding: 0 15px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
 }
 
     /* ======================================
@@ -548,6 +548,51 @@
     body {
         padding-bottom: 85px;
     }
+
+    /* BARRE MOBILE */
+
+.ptd_nav {
+    width: calc(100vw - 20px) !important;
+    max-width: none !important;
+    height: 60px !important;
+    left: 10px !important;
+    right: auto !important;
+    bottom: 10px !important;
+    padding: 0 15px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* AVATAR */
+
+.ptd_nav_prof {
+    order: 1 !important;
+    margin: 0 !important;
+}
+
+/* NOTIFICATIONS */
+
+.ptd_nav > #notiffi_button {
+    order: 2 !important;
+    margin: 0 !important;
+}
+
+/* MENU */
+
+#ptd_mobile_menu_button {
+    order: 3 !important;
+    margin: 0 !important;
+}
+
+/* PANNEAU DES LIENS */
+
+.ptd_nav_links {
+    position: fixed !important;
+    flex: none !important;
+    margin: 0 !important;
+}
 
 }
 
