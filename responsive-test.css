@@ -601,37 +601,6 @@
   #quick_reply td.row2{width:80%!important;}
   .sceditor-container.ltr.sourceMode,.sceditor-container.ltr.wysiwygMode{height:400px!important;width: 100% !important;max-width: 828px !important;}
   
-  .navig {left: 0%!important;
-    margin-left: 0!important;
-    background: transparent!important;
-    backdrop-filter: blur(25px) !important;
-    position: fixed!important;
-    top: 0!important;
-    z-index: 200!important;
-    width: 100%!important;
-    mix-blend-mode: normal!important;        display: flex !important;
-        height: 50px !important;
-        padding-top: 21px !important;
-        padding-left: 90px !important;}
-  .navig div {
-    width: auto!important;
-    position: relative!important;
-    height: auto!important;
-    z-index: 998!important;
-    top: 1px!important;
-    outline: 0px!important;
-}
-  .navig2,.notif2{display:none!important;}
-  a.mainmenu{font-size:21px!important;height:17px!important;color:var(--pa_c1)!important;}
-  .cat-slider{display:none!important;}
-  .theme-switch-wrapper{top:38px!important;}
-  .theme-switch{height:30px!important;width:30px!important;}
-  .input:checked + .slider:before{transform: translateX(0px)!important;}
-  .slider:before{height:20px!important;width:20px!important;bottom: 5px!important;left: 5px!important;}
-  #fa_menu{display:none!important;}
-      .ntf_button-text{color:var(--pa_c1)!important;font-size: 21px!important;padding: 37px 3px 0 3px!important;}
-      .unread_count{top: 20px!important;left: 13px!important;scale: 1.8!important;}
-      
       
   .bodylinewidth{width:100%!important;padding-bottom: 80px!important;}
   
@@ -722,10 +691,7 @@
   .cadre_title h2{font-size:40px!important;}
   
   
-  .switcheroo{height:80px!important;}
-  .switcheroo__squircle{width:47px!important;height:70px!important;margin:0 15px!important;}
-  .switcheroo__squircles:before{font-size:18px!important;margin:24px 6px 0 0!important;}
-  .boutonhautbas,body .uwy .uai, body .uwy .ulsti{display:none!important;}
+ 
   #FAM-button-open{width: 42px !important;height: 42px !important;bottom: 102px !important;font-size: 20px !important;}
   #FAM{height: 90% !important;bottom: 80px !important;z-index: 999 !important;max-width: 90%;right: 10% !important;}
   #FAM-actions{background-color: var(--fond-c1)!important;}
