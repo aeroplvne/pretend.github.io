@@ -752,7 +752,26 @@ body > .ptd_nav #notiffi_button .unread_count {
         "liens"
         "bottom" !important;
 }
+/* SWITCHEROO MOBILE */
 
+.ptd_profil_main_bottom .switcheroo__squircles {
+    gap: 35px !important;
+}
+
+.ptd_profil_main_bottom .switcheroo__squircle,
+.ptd_profil_main_bottom .switcheroo__avatar,
+.ptd_profil_main_bottom .switcheroo__avatar img {
+    width: 160px !important;
+    height: 160px !important;
+}
+
+.ptd_profil_main_bottom .switcheroo__squircle {
+    flex: 0 0 160px !important;
+}
+
+.ptd_profil_main_bottom .switcheroo__squircle--button {
+    font-size: 75px !important;
+}
 
 }
 
