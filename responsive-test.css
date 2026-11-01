@@ -531,22 +531,30 @@ body > .ptd_nav #notiffi_button .unread_count {
     inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
+    padding: 35px !important;
     box-sizing: border-box !important;
-    padding: 40px !important;
-    overflow-y: auto !important;
-    z-index: 1200 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: hidden !important;
 }
 
 /* ENCADRÉ PRINCIPAL */
 
 .ptd_profil_main {
     position: relative !important;
+
     width: 100% !important;
     max-width: none !important;
+
     height: auto !important;
-    max-height: calc(100vh - 80px) !important;
-    margin: auto !important;
+    max-height: calc(100dvh - 70px) !important;
+
+    margin: 0 !important;
     padding: 30px !important;
+
     box-sizing: border-box !important;
     overflow-x: hidden !important;
     overflow-y: auto !important;
