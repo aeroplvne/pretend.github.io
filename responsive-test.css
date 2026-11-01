@@ -191,6 +191,46 @@
         display: none !important;
     }
 
+   /* BARRE MOBILE PLUS COMPACTE */
+
+body > .ptd_nav {
+    height: 150px !important;
+    padding: 0 35px !important;
+    justify-content: space-between !important;
+    gap: 0 !important;
+}
+
+/* AVATAR À GAUCHE */
+
+body > .ptd_nav .ptd_nav_prof {
+    order: 1 !important;
+    margin: 0 !important;
+}
+
+body > .ptd_nav .ptd_nav_prof img {
+    width: 75px !important;
+    height: 105px !important;
+    margin: 0 !important;
+}
+
+/* NOTIFICATIONS AU CENTRE */
+
+body > .ptd_nav #notiffi_button {
+    order: 2 !important;
+    margin: 0 !important;
+    position: relative !important;
+}
+
+/* MENU À DROITE */
+
+body > .ptd_nav #ptd_mobile_menu_button {
+    order: 3 !important;
+    width: 100px !important;
+    height: 110px !important;
+    font-size: 60px !important;
+    margin: 0 !important;
+}
+
 }
 
 
