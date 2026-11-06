@@ -405,6 +405,10 @@ body.ptd_phone .ptd_nav_linksn {
 
 
 
+
+/* MASQUER LE BOUTON MOBILE SUR ORDINATEUR, MÊME SI LE JS LE CRÉE */
+body:not(.ptd_phone) #ptd_mobile_menu_button { display: none !important; }
+
 @media screen and (max-width: 1245px) {
     body {
         margin-top: 40px !important;
@@ -482,11 +486,11 @@ body.ptd_phone .ptd_nav_linksn {
         overflow-y: auto!important;
         overflow-x: hidden!important;
     }
-
 }
 
+/* PROFIL : UNIQUEMENT SUR TELEPHONE */
 /* ==========================================
-   POPUP PROFIL MOBILE — TÉLÉPHONE UNIQUEMENT
+   POPUP PROFIL MOBILE
    ========================================== */
 
 /* FOND DU POPUP */
@@ -736,6 +740,7 @@ body.ptd_phone .ptd_profil_main_bottom .switcheroo__squircle {
 body.ptd_phone .ptd_profil_main_bottom .switcheroo__squircle--button {
     font-size: 75px !important;
 }
+
 
 
 
