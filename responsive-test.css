@@ -905,6 +905,8 @@ body.ptd_phone #ptd_profile_popup
 .ptd_phone_profile_collapsible:not(.ptd_phone_profile_sections_open) > .ptd_profil_main_c3 {
     display: none !important;
 }
+
+   .uwy{display:none!important;}
 }
 
 
