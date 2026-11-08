@@ -1,3 +1,30 @@
+td:has(> a[name="quickreply"]) .sceditor-container,
+td:has(> a[name="quickreply"]) .sceditor-toolbar,
+td:has(> a[name="quickreply"]) .sceditor-group,
+td:has(> a[name="quickreply"]) .sceditor-button,
+td:has(> a[name="quickreply"]) .sceditor-container iframe,
+td:has(> a[name="quickreply"]) .sceditor-container textarea {
+    background-color: var(--fond-c2) !important;
+    border-color: var(--border-c1) !important;
+}
+
+td:has(> a[name="quickreply"]) .sceditor-container textarea {
+    color: var(--para-c1) !important;
+}
+
+td:has(> a[name="quickreply"]) .word-count {
+    background: var(--fond-c3);
+    color: var(--text-c3);
+    font-size: 10px;
+    padding: 3px 0;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+td:has(> a[name="quickreply"]) .word-count u {
+    font-weight: 600;
+    text-decoration: none;
+}
 
 /* AJOUT PROFIL + VRAI PANNEAU NOTIFFI */
 .ptd_profil_all { z-index: 1110; padding: 20px; box-sizing: border-box; }
