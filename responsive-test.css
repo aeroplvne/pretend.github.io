@@ -908,7 +908,8 @@ body.ptd_phone #ptd_profile_popup
 }
 
    .uwy{display:none!important;}
-   ody:not(.ptd_phone) .ptd_nav #notiffi_button {
+   
+   body:not(.ptd_phone) .ptd_nav #notiffi_button {
         position: absolute !important;
         left: auto !important;
         right: 11px !important;
