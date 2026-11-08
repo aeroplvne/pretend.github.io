@@ -94,20 +94,21 @@ body.ptd_phone > .ptd_nav .ptd_nav_prof img {
 
 body.ptd_phone > .ptd_nav #notiffi_button {
     display: flex !important;
-    position: relative !important;
+    position: absolute !important;
 
-    width: 100px !important;
-    height: 110px !important;
+    /* Retrait de la barre + largeur de l'avatar - demi-compteur. */
+    left: calc(35px + 215px - 20px) !important;
+    right: auto !important;
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
 
-    flex: 0 0 100px !important;
-
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
     align-items: center !important;
     justify-content: center !important;
-
-    order: 2 !important;
-    margin: 0 !important;
-
-    font-size: 55px !important;
+    z-index: 1000 !important;
 }
 
 body.ptd_phone > .ptd_nav #notiffi_button i,
@@ -129,6 +130,7 @@ body.ptd_phone > .ptd_nav #notiffi_button .unread_count {
 
     border-radius: 50% !important;
     outline: 2px solid var(--text-c1);
+    background: var(--fond-c2);
 
     display: grid !important;
     place-items: center !important;
