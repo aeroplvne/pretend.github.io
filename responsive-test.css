@@ -558,10 +558,7 @@ body.ptd_phone .ptd_profil_main_c1 {
 }
 
 body.ptd_phone .ptd_profil_avatar img {
-    width: 180px !important;
-    height: 180px !important;
-    object-fit: cover !important;
-    margin: 0 auto 20px !important;
+    display:none!important;
 }
 
 body.ptd_phone .ptd_profil_username {
@@ -572,6 +569,10 @@ body.ptd_phone .ptd_profil_username {
 body.ptd_phone .ptd_profil_rank {
     font-size: 25px !important;
     text-align: center;
+}
+
+body.ptd_phone  .ptd_profil_rank b {
+    font-size: 21px;
 }
 
 /* ==========================================
