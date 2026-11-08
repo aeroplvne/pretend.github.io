@@ -741,6 +741,55 @@ body.ptd_phone .ptd_profil_main_bottom .switcheroo__squircle--button {
     font-size: 75px !important;
 }
 
+/* ADAPTATION DE LA QUATRIÈME COLONNE, SANS MODIFIER LA BARRE */
+@media screen and (max-width: 1000px) {
+    body:not(.ptd_phone) .ptd_profil_main:not(.ptd_profil_guest) .ptd_profil_grid {
+        grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+        grid-template-areas: "avatar liens" "favoris notifications" "bottom bottom";
+    }
+    body:not(.ptd_phone) .ptd_profil_main_c4 { padding: 0 15px 15px 0; height: 320px; }
+}
+@media screen and (max-width: 560px) {
+    body:not(.ptd_phone) .ptd_profil_main:not(.ptd_profil_guest) .ptd_profil_grid {
+        grid-template-columns: minmax(0,1fr);
+        grid-template-areas: "avatar" "liens" "favoris" "notifications" "bottom";
+    }
+    body:not(.ptd_phone) .ptd_profil_main_c1,
+    body:not(.ptd_phone) .ptd_profil_main_c2,
+    body:not(.ptd_phone) .ptd_profil_main_c3,
+    body:not(.ptd_phone) .ptd_profil_main_c4 { padding-left: 15px; padding-right: 15px; }
+    body:not(.ptd_phone) .ptd_profil_guest .ptd_profil_grid {
+        grid-template-columns: minmax(0,1fr) !important;
+        grid-template-areas: "avatar" "liens" "bottom" !important;
+    }
+}
+body.ptd_phone .ptd_profil_main:not(.ptd_profil_guest) .ptd_profil_grid {
+    grid-template-areas: "avatar avatar" "liens favoris" "notifications notifications" "bottom bottom" !important;
+}
+body.ptd_phone .ptd_profil_main_c4 {
+    height: 600px !important; width: 100%; min-width: 0;
+    padding: 25px !important; box-sizing: border-box;
+}
+body.ptd_phone .ptd_profil_main_c4 > h2 { font-size: 27px !important; margin: 0 0 25px !important; }
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_text,
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_text a,
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_text a strong,
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .no_notification { font-size: 25px !important; }
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_time { font-size: 18px !important; }
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_details { width: 70px !important; flex-basis: 70px; }
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_avatar img { width: 55px; height: 75px; }
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notif_close {
+    font-size: 32px !important; flex-basis: 40px; min-height: 45px;
+}
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel .notiffi_see_all,
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel #notiffi_mark_as_read,
+body.ptd_phone .ptd_profil_main_c4 #notiffi_panel #notiffi_delete_all {
+    font-size: 22px !important; padding: 10px 14px !important;
+}
+body.ptd_phone .ptd_profile_close { width: 65px; height: 65px; font-size: 55px; }
+body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important; }
+
+
 
 
 
