@@ -61,9 +61,9 @@ body.ptd_phone > .ptd_nav .ptd_nav_prof {
     display: flex !important;
     position: relative !important;
 
-    width: 85px !important;
+    width: 215px !important;
     height: 125px !important;
-    min-width: 85px !important;
+    min-width: 215px !important;
     min-height: 125px !important;
 
     flex: 0 0 85px !important;
@@ -79,7 +79,7 @@ body.ptd_phone > .ptd_nav .ptd_nav_prof img {
     display: block !important;
     position: static !important;
 
-    width: 75px !important;
+    width: 215px !important;
     height: 105px !important;
 
     max-width: none !important;
