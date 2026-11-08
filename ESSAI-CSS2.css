@@ -1,4 +1,97 @@
 
+/* AJOUT PROFIL + VRAI PANNEAU NOTIFFI */
+.ptd_profil_all { z-index: 1110; padding: 20px; box-sizing: border-box; }
+.ptd_profil_main {
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    max-height: calc(100vh - 40px);
+    max-height: calc(100dvh - 40px);
+    overflow: auto;
+    box-sizing: border-box;
+}
+.ptd_profil_grid {
+    grid-template-columns: minmax(180px,.8fr) minmax(160px,.7fr) minmax(200px,1fr) minmax(280px,1.4fr);
+    grid-template-areas: "avatar liens favoris notifications" "bottom bottom bottom bottom";
+}
+.ptd_profil_main_c2 { width: auto; min-width: 0; margin: 0; padding-right: 10px; }
+.ptd_profil_main_c3 { position: relative; }
+.ptd_profil_main_c4 {
+    grid-area: notifications; min-width: 0; height: 290px;
+    padding: 0 15px 0 0; box-sizing: border-box;
+    display: flex; flex-direction: column;
+}
+.ptd_profil_main_c4 > h2 {
+    margin: 35px 0 10px 1px; display: inline-block; width: fit-content;
+    color: var(--text-c6); font-family: var(--font-5); font-weight: 500;
+    font-size: 9px; text-transform: uppercase; padding: 1px 4px;
+    outline: 1px solid var(--text-c6); outline-offset: 1px; flex-shrink: 0;
+}
+.ptd_profil_main .ptd_profil_main_bottom { position: relative; min-height: 160px; }
+.ptd_profil_main .ptd_profil_main_bottom #switcheroo {
+    position: relative; width: calc(100% - 35px); margin-left: 35px;
+    box-sizing: border-box;
+}
+.ptd_profil_main .ptd_profil_main_bottom .switcheroo__squircles {
+    grid-template-columns: repeat(auto-fill, 100px) !important;
+}
+.ptd_profile_close {
+    position: absolute; top: 5px; right: 8px; z-index: 2;
+    width: 28px; height: 28px; border: 0; padding: 0;
+    background: var(--fond-c2); color: var(--text-c1);
+    font-size: 24px; line-height: 1; cursor: pointer;
+}
+.ptd_nav_prof { cursor: pointer; }
+.ptd_nav_prof:focus-visible, #notiffi_button:focus-visible,
+.ptd_profile_close:focus-visible { outline: 2px solid var(--text-c2); outline-offset: 2px; }
+/* Le panneau reste intégré même si le gestionnaire extérieur de Notiffi
+   retire sa classe .open après un clic ailleurs dans le profil. */
+.ptd_profil_main_c4 #notiffi_panel,
+.ptd_profil_main_c4 #notiffi_panel.open {
+    position: static !important; inset: auto !important; z-index: auto !important;
+    width: 100% !important; height: auto !important; min-height: 0;
+    flex: 1; max-height: none !important; box-sizing: border-box;
+    margin: 0 !important; padding: 0 !important; border: 0 !important;
+    opacity: 1 !important; visibility: visible !important;
+    transform: none !important; transition: none !important;
+    display: flex !important; flex-direction: column; gap: 10px; overflow: hidden;
+}
+.ptd_profil_main_c4 #notiffi_panel .all_notifications {
+    width: 100%; flex: 1; min-height: 0; box-sizing: border-box;
+    overflow: auto; padding: 4px; border-radius: 0;
+}
+.ptd_profil_main_c4 #notiffi_panel .notification {
+    width: 100% !important; box-sizing: border-box; flex-wrap: nowrap; gap: 7px;
+}
+.ptd_profil_main_c4 #notiffi_panel .notif_details { width: 45px !important; flex: 0 0 45px; }
+.ptd_profil_main_c4 #notiffi_panel .notif_content {
+    width: auto !important; flex: 1; min-width: 0; overflow-wrap: anywhere;
+}
+.ptd_profil_main_c4 #notiffi_panel .notif_close {
+    flex: 0 0 20px; margin-left: 0 !important; opacity: 1;
+    min-height: 24px; cursor: pointer;
+}
+.ptd_profil_main_c4 #notiffi_panel .notiffi_manage {
+    display: flex; flex-direction: column; align-items: stretch; gap: 7px; flex-shrink: 0;
+}
+.ptd_profil_main_c4 #notiffi_panel .notiffi_actions { display: flex; flex-wrap: wrap; gap: 7px; }
+.ptd_profil_main_c4 #notiffi_panel .notiffi_see_all,
+.ptd_profil_main_c4 #notiffi_panel #notiffi_mark_as_read,
+.ptd_profil_main_c4 #notiffi_panel #notiffi_delete_all {
+    height: auto !important; width: auto; margin: 0 !important;
+    padding: 5px 8px !important; box-sizing: border-box; line-height: 1.4; cursor: pointer;
+}
+/* Aucun texte écrit dans le modèle Potion : le zéro est uniquement visuel. */
+#notiffi_button .unread_count:empty {
+    position: relative !important; scale: 1 !important; opacity: 1 !important;
+}
+#notiffi_button .unread_count:empty::after { content: "0"; }
+/* Ne pas afficher le modèle avant son remplacement par Potion. */
+#notiffi_button template.unread_count { display: none !important; }
+.ptd_profil_main.ptd_profil_guest { width: 850px; }
+.ptd_profil_guest .ptd_profil_main_c4 { display: none; }
+
 
 
 /*LISTE DES SUJETS*/
@@ -855,125 +948,7 @@ color:transparent;background: var(--deg-3);
 
 .FAM-msg:first-child{display:none!important;}
 
-#fa_notifications{display:none!important;}
-          .all_notifications .notification{display: flex;width: 470px;flex-wrap: wrap;margin: 0 0 5px 0;padding: 5px;background: var(--fond-c1);transition:0.1s linear;}
-.all_notifications .notification:hover{background: var(--fond-c3);transition:0.1s linear;}
-.notif_details{width:60px!important;}
-.notif_avatar img{width: 35px;height: 50px;border: 2px solid var(--text-c1);object-fit: cover;}
-.notif_text{font-size: 13px !important;color: var(--para-c1);font-family: var(--font-1);font-weight: 100;text-transform:lowercase!important;}
-.notif_text a{margin-top: 0px!important;position: inherit !important;font-size: 13px !important;font-style: italic;font-family: var(--font-3) !important;text-transform: lowercase !important;font-weight: 600;color: var(--text-c1) !important;}
-.notif_text a strong{margin-top: 0px!important;position: inherit !important;font-size: 13px !important;font-style: italic;font-family: var(--font-3) !important;text-transform: lowercase !important;font-weight: 600;}
-.notif_time{font-size: 9px!important;text-transform: uppercase;font-family: var(--font-2);color: var(--para-c1);}
-.notif_icon i{margin: 0 0 0 1px!important;}
-.notif_icon{position: relative;width: 13px;padding: 5px;border-radius: 50%;font-size: 12px;margin: 1px 0 0 28px;background: var(--fond-c2);}
-.notif_content{width:383px!important;}
-.notif_close {background: none!important;font-size: 16px!important;color: var(--text-c1)!important;margin-left: 6px!important;border: none!important;}
-.notif_close:hover {color: var(--text-c2)!important;}
-.notiffi_see_all{padding: 4px 10px !important;font-size: 10px !important;height: 13px !important;font-weight: 400 !important;text-transform: lowercase;font-family: var(--font-1);color: var(--text-c3);margin-left: 9px;background: var(--fond-c1);transition: 0.1s linear!important;}
-.notiffi_see_all:hover, #notiffi_mark_as_read:hover, #notiffi_delete_all:hover{color: #fff;background: var(--text-c4);transition: 0.1s linear!important;}
-#notiffi_mark_as_read, #notiffi_delete_all{padding: 3px 10px 18px 10px !important;font-size: 10px !important;width: 110px;height: 13px !important;font-weight: 400 !important;text-transform: lowercase;font-family: var(--font-1);color: var(--text-c3);margin-right: 9px;background: var(--fond-c1);border: none;transition: 0.1slinear !important;}
-.notification.unread .notif_icon {background:var(--text-c2)!important;color:#fff!important;}
-.notif2 {
-    width: 66px;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    z-index: 989;
-    right: 10px;
-    height: 26px;
-    top: 8px;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-}
-#notiffi_button {
-   cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1000;
-    margin-top: 15px;
-    left: auto;
-    top: auto;
-    flex-shrink: 0;
-}
 
-.ntf_button-text {
-    color: #fff;
-    font-family: var(--font-5);
-    font-size: 9px;
-    font-weight: 500;
-    letter-spacing: 0;
-    padding: 0 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    position: relative;
-    height: 22px;
-    align-content: center;
-    -webkit-font-smoothing: antialiased;
-}
-.ntf_button-text:after {
-    z-index: 999;
-    left: 44px;
-    top: 4px;
-    position: absolute;
-    background: #fff !important;
-    color: #000 !important;
-    border-radius: 50%;
-    width: 14px;
-    display: grid;
-    place-items: center;
-    font-weight: 600;
-    font-size: 9px;
-    scale: 1;
-    opacity: 1;
-    aspect-ratio: 1;
-    transition: scale ease-out .2s;
-    content: "0";
-}
-.unread_count:empty{position:absolute;scale:0;opacity:0;transition:all ease-out .2s}
-.unread_count {
-    color: var(--text-c1);
-    border-radius: 50% !important;
-    width: 15px !important;
-    height: 15px !important;
-    font-weight: 800 !important;
-    outline: 1px solid var(--text-c1);
-    font-size: 9px !important;
-    font-family: var(--font-4) !important;
-    display: grid!important;
-    place-items: center!important;
-}
-#notiffi_panel{width:500px;position:fixed;z-index:952;top:0;height:auto!important;right:calc(500px * -1);display:flex;flex-direction:column;gap:10px;align-items:start;background:var(--fond-c2);border-left:1px solid var(--border-c1);border-bottom:1px solid var(--border-c1);padding:15px;padding-top:50px;opacity:0;visibility:hidden;transition:all ease .7s}
-#notiffi_panel.open{right:0;visibility:visible;opacity:1}
-.all_notifications{width:100%;overflow:auto;max-height:100%;padding:10px;border-radius:10px;-ms-overflow-style:none;scrollbar-width:none}
-.no_notification{text-align:center;font-style:italic}
-.notiffi_manage{width:100%;display:flex;justify-content:space-between}
-.notiffi_actions{justify-items:end;gap:5px;background:var(--fond-c2);border-radius:5px}
-@keyframes notiffiFadeIn{from{opacity:0}to{opacity:1}}
-.notification.unread{background-color:var(--fond-c1)}
-.notif_details{position:relative;align-self:start}
-.notif_avatar{background:var(--neutral);height:35px;border-radius:5px;aspect-ratio:1;aspect-ratio:1;object-fit:cover;object-position:center;border-radius:5px}
-.notification.unread .notif_icon{color:var(--neutral);background:var(--accentClr)}
-.notif_content{width:100%}
-.notif_time{font-size:var(--little-size);opacity:.8;margin-top:5px}
-.notif_close{background:0 0;align-self:start;font-size:18px;line-height:0;opacity:0;border-radius:100px;aspect-ratio:1;padding:2px;transition:all .3s}
-.notification:hover .notif_close{opacity:1}
-.notification.alert{position:fixed;width:400px;align-items:center;z-index:99;bottom:10px;right:10px;background:var(--neutralDarker);transform:translateY(100%);opacity:0;filter:blur(5px);transition:all .5s ease-in-out}
-.notification.alert.up{transform:translateY(0);opacity:1;filter:blur(0);transition:all .5s ease-in-out}
-.no_notification{font-size: 12px !important;font-family: var(--font-4);text-transform: lowercase;}
-.alert_close{background:var(--neutral);font-size:18px;line-height:0;border-radius:100px;aspect-ratio:1;padding:2px}
-
-#notiffi_button .unread_count {
-    display: flex !important;
-    align-items: center!important;
-    justify-content: center!important;
-    text-align: center!important;
-}
-
-#notiffi_button .unread_count:empty::after {
-    content: "0";
-}
           
           .insta-prof-cc,.insta-like-cc,.insta-post-cc,.insta-comnt-cc {background-color: var(--fond-c3)!important;color: var(--text-c1)!important;}
 .insta-prof-cc .insta-body .insta-btns > div{border: 1px solid var(--border-c1)!important;}
