@@ -853,6 +853,60 @@ body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__avatar im
 body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__squircle {
     flex: 0 0 100px !important;
 }
+
+   #ptd_profile_popup .ptd_phone_profile_toggle {
+    display: none;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_phone_profile_toggle {
+    grid-area: sections;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--border-c1);
+    background: var(--fond-c2);
+    color: var(--text-c1);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_phone_profile_toggle::after {
+    content: "+";
+    margin-left: 12px;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_phone_profile_toggle[aria-expanded="true"]::after {
+    content: "−";
+}
+
+body.ptd_phone #ptd_profile_popup:not(.ptd_profil_guest)
+.ptd_profil_grid.ptd_phone_profile_collapsible {
+    grid-template-areas:
+        "avatar avatar"
+        "sections sections"
+        "notifications notifications"
+        "bottom bottom" !important;
+}
+
+body.ptd_phone #ptd_profile_popup:not(.ptd_profil_guest)
+.ptd_profil_grid.ptd_phone_profile_collapsible.ptd_phone_profile_sections_open {
+    grid-template-areas:
+        "avatar avatar"
+        "sections sections"
+        "liens favoris"
+        "notifications notifications"
+        "bottom bottom" !important;
+}
+
+body.ptd_phone #ptd_profile_popup
+.ptd_phone_profile_collapsible:not(.ptd_phone_profile_sections_open) > .ptd_profil_main_c2,
+body.ptd_phone #ptd_profile_popup
+.ptd_phone_profile_collapsible:not(.ptd_phone_profile_sections_open) > .ptd_profil_main_c3 {
+    display: none !important;
+}
 }
 
 
