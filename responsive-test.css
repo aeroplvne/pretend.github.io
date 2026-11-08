@@ -748,7 +748,114 @@ body.ptd_phone .ptd_profil_main_bottom .switcheroo__squircle--button {
         grid-template-areas: "avatar liens" "favoris notifications" "bottom bottom";
     }
     body:not(.ptd_phone) .ptd_profil_main_c4 { padding: 0 15px 15px 0; height: 320px; }
+
+   /* Profil compact sur téléphone */
+body.ptd_phone .ptd_profil_all {
+    padding: 24px 24px 170px !important;
 }
+
+body.ptd_phone #ptd_profile_popup {
+    max-height: calc(100vh - 194px) !important;
+    max-height: calc(100dvh - 194px) !important;
+    padding: 20px !important;
+    overflow-y: auto !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_grid {
+    gap: 14px !important;
+}
+
+/* Avatar et pseudo sur une ligne */
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c1 {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    justify-content: start !important;
+    column-gap: 22px;
+    padding: 12px 64px 12px 12px !important;
+    border-right: 0;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_avatar {
+    grid-row: 1 / 3;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_avatar img {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_username,
+body.ptd_phone #ptd_profile_popup .ptd_profil_rank {
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+/* Liens et favoris côte à côte */
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c2,
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c3 {
+    padding: 12px !important;
+    overflow-wrap: anywhere;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c2 ul {
+    gap: 8px !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c3 x-bookmark-list {
+    display: block;
+    height: auto !important;
+    max-height: 240px;
+}
+
+/* La colonne prend la hauteur de son contenu */
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c4 {
+    height: auto !important;
+    padding: 12px !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c4 #notiffi_panel {
+    flex: 0 0 auto;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_c4 #notiffi_panel .all_notifications {
+    flex: 0 1 auto;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+/* Mes comptes */
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom {
+    min-height: 0;
+    margin-top: 0;
+    padding: 12px !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom #switcheroo {
+    margin-left: 0;
+    padding: 4px;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__squircles {
+    gap: 12px !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__squircle,
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__avatar,
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__avatar img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+body.ptd_phone #ptd_profile_popup .ptd_profil_main_bottom .switcheroo__squircle {
+    flex: 0 0 100px !important;
+}
+}
+
+
+
+
 @media screen and (max-width: 560px) {
     body:not(.ptd_phone) .ptd_profil_main:not(.ptd_profil_guest) .ptd_profil_grid {
         grid-template-columns: minmax(0,1fr);
