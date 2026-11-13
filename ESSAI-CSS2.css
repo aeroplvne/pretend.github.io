@@ -20,7 +20,11 @@
 #cal-rp [hidden] { display: none !important; }
 #cal-rp .mois { text-transform: capitalize; }
 #cal-rp .meteo { display: block; font-size: 11px; }
-#cal-rp .mois { font-size: 18px; font-family: Georgia, serif; }
+#cal-rp .mois { font-size: 17px;
+    line-height: 8px;
+    font-family: var(--font-7);
+    font-weight: 600 !important;
+    color: var(--text-c1);text-transform:lowercase; }
 #cal-rp .grille {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
