@@ -1,7 +1,5 @@
 #cal-rp {
-  --fond: #f6f1e9;
   --texte: #342e2b;
-  --bordure: #ded3c6;
   max-width: 320px;
  margin-top: 20px;
   color: var(--texte);
@@ -12,9 +10,10 @@
 }
 #cal-rp .carte {
   padding: 14px;
-  border: 1px solid var(--bordure);
-  border-radius: 9px;
-  background: var(--fond);
+    outline: 1px solid var(--border-c1);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    background-color: var(--backfofo);
 }
 #cal-rp .entete { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 #cal-rp .icone { font-size: 24px; }
