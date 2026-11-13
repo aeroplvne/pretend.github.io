@@ -37,19 +37,24 @@
   place-items: center;
   min-height: 30px;
   border-radius: 50%;
+  color: var(--para-c1);
 }
-#cal-rp .hors-mois { color: #756b64; }
-#cal-rp .event-rp { --categorie: #c9d6eb; }
-#cal-rp .event-hrp { --categorie: #cedecb; }
+#cal-rp .hors-mois { opacity: 0.4; }
+#cal-rp .event-rp { --categorie: var(--text-c2);transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
+#cal-rp .event-hrp { --categorie: var(--text-c4);transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
 #cal-rp .navigation { display: flex; gap: 4px; margin-left: auto; }
-#cal-rp .navigation button { min-width: 28px; min-height: 28px; border-radius: 5px; background: #fffaf4; }
+#cal-rp .navigation button { min-width: 28px;
+    min-height: 28px;
+    border-radius: 50%;
+    background: var(--fond-c1);
+    color: var(--text-c1); }
 #cal-rp button {
   background: var(--categorie);
   color: inherit;
   border: 1px solid transparent;
   font: inherit;
   font-weight: bold;
-  cursor: pointer;
+  cursor: pointer;transition: opacity .3s ease, transform .3s ease, visibility .3s ease;
 }
 #cal-rp button:hover, #cal-rp button:focus-visible { border-color: currentColor; }
 #cal-rp .legende { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 10px; font-size: 10px; }
