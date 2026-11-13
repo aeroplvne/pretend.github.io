@@ -1,11 +1,11 @@
 #cal-rp {
   --texte: #342e2b;
   max-width: 320px;
- margin-top: 20px;
+ margin-top: 24px;
   color: var(--texte);
   font: 13px/1.45 system-ui, sans-serif;
       position: absolute;
-    left: 290px;
+    left: 285px;
       z-index: 1;
 }
 #cal-rp .carte {
