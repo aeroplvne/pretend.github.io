@@ -3,7 +3,9 @@
   --texte: #342e2b;
   --bordure: #ded3c6;
   max-width: 320px;
-  margin: 1rem auto;
+  margin-top: 22px;
+  position: absolute;
+    left: 274px;
   color: var(--texte);
   font: 13px/1.45 system-ui, sans-serif;
 }
