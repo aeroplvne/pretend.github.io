@@ -59,7 +59,7 @@
   border: 1px solid transparent;
   font: inherit;
   font-weight: bold;
-  cursor: pointer;transition: opacity .3s ease, transform .3s ease, visibility .3s ease;color:#fff;
+  cursor: pointer;transition: opacity .3s ease, transform .3s ease, visibility .3s ease;color:#fff!important;
 }
 #cal-rp button:hover, #cal-rp button:focus-visible { border-color: currentColor; }
 #cal-rp .legende { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 10px; font-size: 10px; color: var(--para-c1) !important;}
