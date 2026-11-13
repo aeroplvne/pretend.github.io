@@ -31,13 +31,17 @@
   gap: 3px;
   text-align: center;
 }
-#cal-rp .semaine { margin-bottom: 4px; font-size: 10px; text-transform: uppercase; }
+#cal-rp .semaine { margin-bottom: 4px; font-size: 10px; text-transform: uppercase; font-family: var(--font-1);
+    font-weight: 500;
+    color: var(--para-c1);}
 #cal-rp .dates > * {
   display: grid;
   place-items: center;
   min-height: 30px;
   border-radius: 50%;
   color: var(--para-c1);
+  font-family: var(--font-5);
+    font-size: 11px;
 }
 #cal-rp .hors-mois { opacity: 0.4; }
 #cal-rp .event-rp { --categorie: var(--text-c2);transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
