@@ -8,6 +8,7 @@
   font: 13px/1.45 system-ui, sans-serif;
       position: absolute;
     left: 290px;
+      z-index: 1;
 }
 #cal-rp .carte {
   padding: 14px;
