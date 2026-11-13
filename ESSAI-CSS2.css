@@ -45,8 +45,8 @@
     font-size: 11px;
 }
 #cal-rp .hors-mois { opacity: 0.4; }
-#cal-rp .event-rp { --categorie: var(--text-c2);color#fff;transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
-#cal-rp .event-hrp { --categorie: var(--text-c4);color#fff;transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
+#cal-rp .event-rp { --categorie: var(--text-c2);color:#fff;transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
+#cal-rp .event-hrp { --categorie: var(--text-c4);color:#fff;transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
 #cal-rp .navigation { display: flex; gap: 4px; margin-left: auto; }
 #cal-rp .navigation button { min-width: 28px;
     min-height: 28px;
