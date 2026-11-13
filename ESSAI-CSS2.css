@@ -32,7 +32,7 @@
   display: grid;
   place-items: center;
   min-height: 30px;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 #cal-rp .hors-mois { color: #756b64; }
 #cal-rp .event-rp { --categorie: #c9d6eb; }
