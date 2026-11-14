@@ -458,7 +458,7 @@ body:not(.ptd_phone) #ptd_mobile_menu_button { display: none !important; }
     }
     .ptd_nav_links {
     display: grid !important;
-        grid-template-columns: repeat(9, auto);
+        grid-template-columns: repeat(10, auto);
         justify-content: center;
         align-content: center;
         gap: 18px !important;
