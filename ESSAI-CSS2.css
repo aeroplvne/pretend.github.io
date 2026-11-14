@@ -49,8 +49,8 @@
 #cal-rp .event-rp { --categorie: var(--text-c2);transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
 #cal-rp .event-hrp { --categorie: var(--text-c4);transition: opacity .3s ease, transform .3s ease, visibility .3s ease; }
 #cal-rp .navigation { display: flex; gap: 4px; margin-left: auto; }
-#cal-rp .navigation button { min-width: 28px;
-    min-height: 28px;
+#cal-rp .navigation button { min-width: 20px;
+    min-height: 20px;
     border-radius: 50%;
     background: var(--fond-c1);
     color: var(--text-c1); }
