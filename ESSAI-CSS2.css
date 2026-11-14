@@ -14,7 +14,7 @@
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
     background-color: var(--backfofo);width: 210px;
-    height: 215px !important;
+    height: 225px !important;
 }
 #cal-rp .entete { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 #cal-rp .icone { font-size: 24px; }
