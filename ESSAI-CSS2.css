@@ -1,3 +1,18 @@
+#ptd-sujets{box-sizing:border-box;outline:1px solid var(--border-c1);background:var(--backfofo);color:#faf7f7;font:14px / 1.35 system-ui,sans-serif;position:absolute;width: 256px;height: 229px;left: 285px;margin-top: 291px;padding:14px 13px 14px 23px}
+#ptd-sujets h2{font-size:17px;line-height:8px;font-family:var(--font-7);font-weight:600!important;color:var(--text-c1);text-transform:lowercase;margin:10px 0}
+#ptd-sujets ul{margin:0;list-style:none;overflow: auto;height: 175px;padding: 0 13px 0 0;}
+#ptd-sujets li{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border-c1);text-transform:lowercase;}
+#ptd-sujets li:last-child{border-bottom:0}
+#ptd-sujets a{color:inherit;text-decoration:none}
+#ptd-sujets a:hover{text-decoration:underline}
+#ptd-sujets .ptd-sujet-titre{width: fit-content;text-overflow:ellipsis;white-space:nowrap;font-family: var(--font-6) !important;font-size: 14px;font-weight: 400;font-style: italic;color: var(--pa_c1);border-bottom: 1px solid transparent;line-height: 17px;}
+#ptd-sujets .ptd-sujet-titre:hover{border-bottom: 1px solid var(--pa_c1);}
+#ptd-sujets .ptd-sujet-date{color: var(--para-c2);font-size:11px;font-size: 11px;font-family: var(--font-1) !important;text-transform: lowercase;line-height: 14px;}
+#ptd-sujets .ptd-sujet-texte{grid-area:1 / 2;min-width:0;display: flex;flex-direction: column;}
+#ptd-sujets .ptd-auteur{display:grid;place-items:center;grid-area:1 / 1;width:30px;height:30px;overflow:hidden;border-radius:50%;background:#453a42;font-weight:700}
+#ptd-sujets .ptd-auteur img{display:block;width:30px;height:30px;object-fit:cover}
+
+
 .category#c1 .cate_tt{width: 485px;display: flex;margin-left: auto;padding: 25px 0 10px 0;}
 .category#c1 .ptd_forum{display: grid;gap: 10px;grid-template: 1fr 1fr / 2fr 2fr;}
 .category#c1 .ptd_forum .cate_corps:first-of-type{grid-row: 1 / 3;max-width: 210px;display: flex;flex-direction: column;height: 100%;justify-content: flex-start;background:transparent;outline:0px;background-image: var(--cat-img1);background-position: center top;background-repeat: no-repeat;background-size: cover;}
