@@ -1,3 +1,9 @@
+@media screen and (min-width:1001px){
+  body:not(.ptd_phone) #ptd_profile_popup.ptd_profil_main:not(.ptd_profil_guest),
+  body:not(.ptd_phone) #ptd_profile_popup:not(.ptd_profil_guest) .ptd_profil_main{width:min(1080px,calc(100vw - 40px))!important;height:min(500px,calc(100vh - 40px))!important;box-sizing:border-box}
+  body:not(.ptd_phone) #ptd_profile_popup:not(.ptd_profil_guest) > .ptd_profil_grid{grid-template-rows:minmax(0,1fr) 160px;min-height:0}
+  body:not(.ptd_phone) #ptd_profile_popup:not(.ptd_profil_guest) .ptd_profil_main_c4{min-height:0;overflow-y:auto}
+}
 @media screen and (min-width: 1001px) {
 body:not(.ptd_phone) #ptd_profile_popup:not(.ptd_profil_guest) > .ptd_profil_grid{height:100%;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.1fr) minmax(0,1.6fr)!important;grid-template-rows:minmax(290px,1fr) 160px;grid-template-areas:"avatar liens favoris notifications" "bottom bottom bottom notifications"!important}
 body:not(.ptd_phone) #ptd_profile_popup .ptd_profil_main_c2,body:not(.ptd_phone) #ptd_profile_popup .ptd_profil_main_c3{margin-left:0;padding-left:0}
