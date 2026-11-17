@@ -1008,13 +1008,6 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
   
       
   .bodylinewidth{width:100%!important;padding-bottom: 80px!important;}
-
-
-    .category > .ptd_forum{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:none;grid-auto-flow:row;gap:10px}
-  .category > .ptd_forum > .cate_corps,
-  .category#c5 > .ptd_forum > .cate_corps:nth-child(n of .cate_corps){grid-area:auto / 1;box-sizing:border-box;width:100%;min-width:0;max-width:none;height:220px;min-height:0;max-height:none;margin-inline:0;overflow:auto}
-  .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::before{display:none}
-  .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps){grid-template-columns:10px minmax(0,1fr) minmax(0,40%)}
   
   .catHead h2, .t-title h2{font-size:32px!important;line-height:auto!important;}
   .paginer, .paginer_topic,.paginer_topic a,.paginer_topic b{font-size:20px!important;}
