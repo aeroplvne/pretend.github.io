@@ -989,11 +989,7 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
 
   button.toggle-panel,.sceditor-button i.bi{font-size:30px!important;}
   .sceditor-button{width:30px!important;height:30px!important;}
-  
-  .pa_top20_img {width: 155px!important;}
-  .pa_col2end {width: 155px!important;padding: 0 20px!imortant;}
-  .pa_contexte{width: 144px!important;}
-  
+
   #notiffi_panel{width:80%;padding-top:80px!important;}
   .all_notifications .notification,.notification{with:95%!important;height:90px;min-width:95%!important;}
   .notif_content {width: 70% !important;}
