@@ -206,7 +206,11 @@ td:has(> a[name="quickreply"]) .word-count u{font-weight:600;text-decoration:non
 .ptd_profil_main.ptd_profil_guest{width:850px}
 .ptd_profil_guest .ptd_profil_main_c4{display:none}
 
-
+/* Garder la scrollbar du forum visible */
+html:has(.ptd_profil_all.is-open) {
+    overflow-y: scroll !important;
+    scrollbar-gutter: stable;
+}
 
 /*LISTE DES SUJETS*/
 img[alt="Vous avez posté dans ce sujet."]{width: 2px;height: 13px;background-color: var(--text-c2);margin: 2px 5px 0 0 !important;float: left;}
