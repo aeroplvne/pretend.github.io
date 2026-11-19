@@ -9,7 +9,7 @@
 .FAM-tab {background: var(--fond-c2)!important;color:var(--pa_c3);}
 .FAM-tab:hover{background: var(--deg-3)!important;color: var(--pa_c2)!important;}
 .FAM-tab-name{font-family: var(--font-5)!important;font-weight: 500!important;font-size: 10px!important;}
-.FAM-container-content{background: var(--fond-c1)!important;}
+.FAM-container-content{background: transparent !important;}
 #FAM-tab-container:after, .FAM-viewing-topic:before, .FAM-viewing-topic:after{background: none!important;}
 .FAM-my-msg .FAM-msg-text{border-bottom: 3px solid var(--pa_c3);}
 .FAM-tab.FAM-tab-active{background: var(--deg-4)!important;color:#fff!important;text-transform:uppercase!important;}
@@ -20,7 +20,7 @@
 .FAM-chat-avatar{padding: 4px!important;margin: 0 10px 0 0!important;border-radius: 50%!important;}
 .FAM-new-post, .FAM-new-post a, .FAM-new-post .FAM-chat-title {text-transform: lowercase!important;font-family: var(--font-7)!important;font-size: 14px!important;font-weight: 700 !important;margin: 0 5px!important;}
 #FAM-content{padding:0!important}
-.FAM-chat-content{padding: 6px 20px 6px 10px !important;border-radius: 0!important;margin: 1px 0!important;min-height: auto!important;}
+.FAM-chat-content{padding: 6px 20px 6px 10px !important;    border-radius: 5px !important;margin: 1px 0!important;min-height: auto!important;}
 #FAM-tab-add{background: var(--fond-c2) !important;color: var(--text-c1) !important;margin: 10px 0 0 5px!important;}
 #FAM-msg{font-family: var(--font-1)!important;font-size: 12px!important;}
 .FAM-forum .FAM-chat-title {text-transform: lowercase;font-family: var(--font-7) !important;margin: 0 5px !important;}
