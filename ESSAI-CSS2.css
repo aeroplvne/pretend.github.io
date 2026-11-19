@@ -202,7 +202,7 @@ body.ptd_phone > .ptd_nav .ptd_nav_links .ptd_nav_messenger > #FAM-button-open{d
 #cal-rp .infos{margin-top:10px;padding-top:8px;border-top:1px solid var(--bordure);font-size:11px}
 
 #ptd_admin_{cursor:pointer}
-.ptd_admin_overlay{position:fixed;inset:0;background:var(--backfofo2);display:flex;align-items:center;justify-content:center;z-index:998;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
+.ptd_admin_overlay{position:fixed;inset:0;background:var(--backfofo2);display:flex;align-items:center;justify-content:center;z-index:950;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s}
 .ptd_admin_overlay.active{opacity:1;visibility:visible}
 .ptd_admin_popup{position:relative;width:900px;height:400px;background:var(--backfofo);border:1px solid var(--border-c1);box-sizing:border-box;transform:translateY(15px);transition:transform .3s}
 .ptd_admin_overlay.active .ptd_admin_popup{transform:translateY(0)}
