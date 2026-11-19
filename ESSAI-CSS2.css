@@ -16,7 +16,7 @@
   #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_lastpost > .forum_avatar img{border-radius:0%;}
 #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_lastpost > .cate_lastpp{position:static;align-self:center;flex:0 1 auto;min-width:0;width:auto;height:auto;margin: -27px 0 0 0;padding:0;line-height:1.2}
 #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_lastpost > .cate_lastpp > .lastpost_link.category,#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) > .cate_sslink {display:block;margin:0;padding:0;line-height:1.2}
-  .category#c1 > .category#c1{height:171px;}
+  .category#c1 > .category#c1{height:171px!important;}
   .category#c1 .cate_tt {width: 100%;padding: 75px 0 10px 0;}
   .category#c1 .ptd_forum .cate_corps:first-of-type > .forum_lastpost{display:none!important;}
   .forum_desc1{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;font-family:var(--font-5);font-weight:500;font-size:10px;text-transform:uppercase;padding:1px 4px}
