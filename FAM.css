@@ -1,6 +1,6 @@
         
  #FAM-msg{max-width: 525px!important;}
-#FAM {height:80%!important;right: 65px!important;left:auto!important;background: var(--fond-c1)!important;bottom:30px!important;}
+#FAM {height:100%!important;right: 0!important;left:auto!important;background: var(--backfofo) !important;    backdrop-filter: blur(25px);bottom:0px!important;}
 #FAM-button-open{color: #fff!important;background: var(--deg-3)!important;font-size: 12px!important;border-radius: 50%!important;width: 22px!important;height: 22px!important;}
 #FAM-button-open{z-index:999;position:fixed!important;top:auto!important;left:auto!important;right: 15px!important;bottom: 4px!important;}
 .FAM-msg-text {color: var(--para-c1)!important;background: var(--fond-c2)!important;font-size: 13px!important;font-family: var(--font-1)!important;}
