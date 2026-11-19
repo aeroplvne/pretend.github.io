@@ -31,6 +31,7 @@
   .category#c7 > .ptd_forum > .cate_corps > .forum_desc1 {height: 40px!important;}
   .category#c6 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps) > .forum_desc{display:block!important;border-bottom:0px;}
   .category#c6 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps) > .forum_lastpost{border-left: none;}
+        .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::before,.category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::after{display:none}
 }
 
 @media screen and (min-width:1001px){
