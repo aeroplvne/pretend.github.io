@@ -1145,7 +1145,9 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
     .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) {height:270px!important;}
     .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) > .forum_desc {display:block!important;}
         #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_desc{width:80%!impotant;}
-    #page-body .category#c4 > .ptd_forum > .cate_corps:nth-child(n of .cate_corps){grid-area:auto!important}
+   
+    #page-body .category#c4 > .ptd_forum{display:flex!important;flex-direction:column!important;gap:10px;width:100%;height:auto!important}
+#page-body .category#c4 > .ptd_forum > .cate_corps:nth-child(n of .cate_corps){grid-area:auto!important;order:0!important;position:relative!important;inset:auto!important;flex:0 0 auto;align-self:stretch;width:100%!important;margin:0!important}
 
     #page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps){grid-template-columns:minmax(0,1fr) minmax(100px,35%);grid-template-rows:10px auto minmax(0,1fr) auto;grid-template-areas:"icat icat" "titre dernier" "description dernier" "liens dernier"}
 #page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .icat{grid-area:icat;align-self:start;width:100%;height:10px;margin:0;border-right:0;border-bottom:1px solid var(--border-c1)}
