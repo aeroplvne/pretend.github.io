@@ -1145,4 +1145,5 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
     .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) {height:270px!important;}
     .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) > .forum_desc {display:block!important;}
         #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_desc{width:80%!impotant;}
+    #page-body .category#c4 > .ptd_forum > .cate_corps:nth-child(n of .cate_corps){grid-area:auto!important}
 }
