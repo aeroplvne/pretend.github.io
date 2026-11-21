@@ -143,7 +143,7 @@ body.ptd_phone > .ptd_nav .ptd_nav_links .ptd_nav_messenger > #FAM-button-open{d
 
 
 
-#ptd-sujets{box-sizing:border-box;outline:1px solid var(--border-c1);background:var(--backfofo);color:#faf7f7;font:14px / 1.35 system-ui,sans-serif;position:absolute;width: 256px;height: 229px;left: 285px;margin-top: 291px;padding:14px 13px 14px 23px}
+#ptd-sujets{box-sizing:border-box;outline:1px solid var(--border-c1);background:var(--backfofo);color:#faf7f7;font:14px / 1.35 system-ui,sans-serif;position:absolute;width: 256px;height: 229px;left: 298px;margin-top: 291px;padding:14px 13px 14px 23px}
 #ptd-sujets h2{font-size:17px;line-height:8px;font-family:var(--font-7);font-weight:600!important;color:var(--text-c1);text-transform:lowercase;margin:10px 0}
 #ptd-sujets ul{margin:0;list-style:none;overflow: auto;height: 175px;padding: 0 13px 0 0;}
 #ptd-sujets li{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border-c1);text-transform:lowercase;}
@@ -175,7 +175,7 @@ body.ptd_phone > .ptd_nav .ptd_nav_links .ptd_nav_messenger > #FAM-button-open{d
 .forum_desc1 > div:nth-child(6) { grid-area: 3 / 2; } /* MAGAZINE */
 .forum_desc1 > div:nth-child(7) { grid-area: 4 / 2; } /* VERSIONS */
 
-#cal-rp{--texte:#342e2b;width:255px;margin-top:17px;color:var(--texte);font:13px/1.45 system-ui,sans-serif;position:absolute;left:285px;z-index:1}
+#cal-rp{--texte:#342e2b;width:255px;margin-top:17px;color:var(--texte);font:13px/1.45 system-ui,sans-serif;position:absolute;left:298px;z-index:1}
 #cal-rp .carte{padding:7px 23px;outline:1px solid var(--border-c1);backdrop-filter:blur(25px);-webkit-backdrop-filter:blur(25px);background-color:var(--backfofo);width:210px;height:249px!important}
 #cal-rp .entete{display:flex;align-items:center;gap:10px;margin:10px 0}
 #cal-rp .icone{font-size:24px}
