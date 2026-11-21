@@ -978,6 +978,9 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
     .category#c1 .ptd_forum .cate_corps:first-of-type .forum_lastpost,.category#c7 .ptd_forum .cate_corps .forum_lastpost{display:none!important;}
     .category#c1 .ptd_forum .cate_corps:first-of-type,.category#c7 .ptd_forum .cate_corps{position:relative;}
     
+    #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps){position:relative!important;inset:auto!important;float:none!important;margin:0!important}
+    #page-body .category,#page-body .category .ptd_forum{height:auto!important;min-height:0}
+    
   body{margin-top:65px!important;}
   .cate_lastpp .btn-lastpost{position: absolute!important;top: 163px!important;right: 110px!important;}
   .cate_lastpp .btn-lastpost i{font-size: 30px!important;}
