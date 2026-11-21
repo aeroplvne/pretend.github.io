@@ -1146,4 +1146,17 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
     .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) > .forum_desc {display:block!important;}
         #page-body .category .ptd_forum > .cate_corps:nth-child(n of .cate_corps) > .forum_desc{width:80%!impotant;}
     #page-body .category#c4 > .ptd_forum > .cate_corps:nth-child(n of .cate_corps){grid-area:auto!important}
+
+    #page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps){grid-template-columns:minmax(0,1fr) minmax(100px,35%);grid-template-rows:10px auto minmax(0,1fr) auto;grid-template-areas:"icat icat" "titre dernier" "description dernier" "liens dernier"}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .icat{grid-area:icat;align-self:start;width:100%;height:10px;margin:0;border-right:0;border-bottom:1px solid var(--border-c1)}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .icat > img{position:static;display:block;width:100%;height:10px}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .forumtitle{grid-area:titre;margin:0}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .forum_desc{grid-area:description;height:auto;min-height:0}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .cate_sslink{grid-area:liens}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .forum_lastpost{grid-area:dernier;display:flex;align-self:stretch;align-items:center;justify-content:center;height:auto;margin:0;padding:8px;gap:12px}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .forum_lastpost > .forum_stats{display:none}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) > .forum_lastpost > :is(.forum_avatar,.cate_lastpp){position:static;align-self:center;margin:0}
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::before,
+#page-body .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::after{display:none}
+
 }
