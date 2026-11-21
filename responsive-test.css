@@ -1129,4 +1129,6 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
   #c4 .cate_corps:nth-child(5){
     margin-left:0%!important;
 }
+
+    #cal-rp,#ptd-sujets{display:none!important;}
 }
