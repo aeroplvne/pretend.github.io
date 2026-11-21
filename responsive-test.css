@@ -976,6 +976,7 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
  {
 
     .category#c1 .ptd_forum .cate_corps:first-of-type .forum_lastpost,.category#c7 .ptd_forum .cate_corps .forum_lastpost{display:none!important;}
+    .category#c1 .ptd_forum .cate_corps:first-of-type,.category#c7 .ptd_forum .cate_corps{position:relative;}
     
   body{margin-top:65px!important;}
   .cate_lastpp .btn-lastpost{position: absolute!important;top: 163px!important;right: 110px!important;}
