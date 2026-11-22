@@ -148,16 +148,16 @@ body.ptd_phone > .ptd_nav .ptd_nav_links .ptd_nav_messenger > #FAM-button-open{d
 #ptd-sujets h2{font-size:17px;line-height:8px;font-family:var(--font-7);font-weight:600!important;color:var(--text-c1);text-transform:lowercase;margin:10px 0}
 #ptd-sujets ul{margin:0;list-style:none;overflow: auto;height: 175px;padding: 0 13px 0 0;}
 #ptd-sujets li{display:grid;grid-template-columns:42px minmax(0,1fr);align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border-c1);text-transform:lowercase;}
-#ptd-sujets li:last-child{border-bottom:0}
+#ptd-sujets li:last-child{border-bottom:0;min-width:0}
 #ptd-sujets a{color:inherit;text-decoration:none}
 #ptd-sujets a:hover{text-decoration:underline}
 #ptd-sujets .ptd-sujet-titre{width: fit-content;text-overflow:ellipsis;white-space:nowrap;font-family: var(--font-6) !important;font-size: 14px;font-weight: 400;font-style: italic;color: var(--pa_c1);border-bottom: 1px solid transparent;line-height: 17px;}
 #ptd-sujets .ptd-sujet-titre:hover{border-bottom: 1px solid var(--pa_c1);}
 #ptd-sujets .ptd-sujet-date{color: var(--para-c2);font-size:11px;font-size: 11px;font-family: var(--font-1) !important;text-transform: lowercase;line-height: 14px;}
-#ptd-sujets .ptd-sujet-texte{grid-area:1 / 2;min-width:0;display: flex;flex-direction: column;}
+#ptd-sujets .ptd-sujet-texte{min-width:0;overflow:hidden;grid-area:1 / 2;min-width:0;display: flex;flex-direction: column;}
 #ptd-sujets .ptd-auteur{display:grid;place-items:center;grid-area:1 / 1;width:30px;height:30px;overflow:hidden;border-radius:50%;background:#453a42;font-weight:700}
 #ptd-sujets .ptd-auteur img{display:block;width:30px;height:30px;object-fit:cover}
-
+#ptd-sujets .ptd-sujet-titre{display:block;width:auto;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--font-6)!important;font-size:14px;font-weight:400;font-style:italic;color:var(--pa_c1);border-bottom:1px solid transparent;line-height:17px}
 
 .category#c1 .cate_tt{width: 485px;display: flex;margin-left: auto;padding: 25px 0 10px 0;}
 .category#c1 .ptd_forum{display: grid;gap: 10px;grid-template: 1fr 1fr / 2fr 2fr;}
