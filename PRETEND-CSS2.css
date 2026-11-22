@@ -151,7 +151,6 @@ body.ptd_phone > .ptd_nav .ptd_nav_links .ptd_nav_messenger > #FAM-button-open{d
 #ptd-sujets li:last-child{border-bottom:0;min-width:0}
 #ptd-sujets a{color:inherit;text-decoration:none}
 #ptd-sujets a:hover{text-decoration:underline}
-#ptd-sujets .ptd-sujet-titre{width: fit-content;text-overflow:ellipsis;white-space:nowrap;font-family: var(--font-6) !important;font-size: 14px;font-weight: 400;font-style: italic;color: var(--pa_c1);border-bottom: 1px solid transparent;line-height: 17px;}
 #ptd-sujets .ptd-sujet-titre:hover{border-bottom: 1px solid var(--pa_c1);}
 #ptd-sujets .ptd-sujet-date{color: var(--para-c2);font-size:11px;font-size: 11px;font-family: var(--font-1) !important;text-transform: lowercase;line-height: 14px;}
 #ptd-sujets .ptd-sujet-texte{min-width:0;overflow:hidden;grid-area:1 / 2;min-width:0;display: flex;flex-direction: column;}
