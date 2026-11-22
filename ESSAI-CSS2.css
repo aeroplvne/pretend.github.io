@@ -19,11 +19,11 @@
   .category#c1 .cate_tt {width: 100%;padding: 75px 0 10px 0;}
   .category#c1 .ptd_forum .cate_corps:first-of-type > .forum_lastpost{display:none!important;}
   .forum_{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;font-family:var(--font-5);font-weight:500;font-size:10px;text-transform:uppercase;padding:1px 4px}
-#page-body .category .forum_desc1{grid-column:1 / -1;grid-row:auto;position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;box-sizing:border-box;width:465px;min-width:0;height:auto;margin:0;padding:1px 4px;font-family:var(--font-5);font-weight:500;font-size:10px;text-transform:uppercase}
+#page-body .category .forum_desc1{grid-column:1 / -1;grid-row:auto;position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;box-sizing:border-box;width:420px;min-width:0;height:auto;margin:0;padding:1px 4px;font-family:var(--font-5);font-weight:500;font-size:10px;text-transform:uppercase}
 #page-body .category .forum_desc1 > *{min-width:0;max-width:100%;box-sizing:border-box}
   .cate_sslink {border-bottom: none !important;}
-#ptd-sujets {height: 263px;left: 834px;margin-top: 0px;}
-  #cal-rp {left: 564px;margin-top: 0px;}
+#ptd-sujets {height: 263px;left: 798px;margin-top: 0px;}
+  #cal-rp {left: 520px;margin-top: 0px;}
   .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps) {position: initial;}
   .category#c5 > .ptd_forum > .cate_corps:nth-child(-n+3 of .cate_corps) > .cate_sslink {padding: 7px 0px 7px 8px;border-block: none;}
   .forum_desc {scrollbar-width: none; /* Firefox */-ms-overflow-style: none;}
@@ -32,6 +32,7 @@
   .category#c6 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps) > .forum_desc{display:block!important;border-bottom:0px;}
   .category#c6 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps) > .forum_lastpost{border-left: none;}
         .category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::before,.category#c5 > .ptd_forum > .cate_corps:nth-child(4 of .cate_corps)::after{display:none}
+        .category#c2 .ptd_forum > .cate_corps:nth-of-type(4)::after,.category#c3 > .ptd_forum > .cate_corps:nth-child(5 of .cate_corps)::after,.category#c4 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps)::before{display:none!important;}
 }
 
 @media screen and (min-width:1001px){
