@@ -848,6 +848,7 @@ h2.pres_lientt{width:520px;margin:10px 10px 10px 10px;padding:5px 0;font-family:
 .cadre-member {
     width: 185px;
     outline: 1px solid var(--border-c1);
+        background: var(--backfofo);
 }
 .member-name {
     padding: 4px 0px;
