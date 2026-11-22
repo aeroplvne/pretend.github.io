@@ -1216,6 +1216,7 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
 #page-body .category#c2 .ptd_forum > .cate_corps:nth-of-type(4) .forum_stats{display:none}
 #page-body .category#c2 .ptd_forum > .cate_corps:nth-of-type(4) :is(.forum_avatar,.cate_lastpp){position:static;align-self:center;margin:0}
 #page-body .category#c2 .ptd_forum > .cate_corps:nth-of-type(4) > br{display:none}
+     .category#c2 .ptd_forum > .cate_corps:nth-of-type(4)::after,.category#c3 > .ptd_forum > .cate_corps:nth-child(5 of .cate_corps)::after,.category#c4 > .ptd_forum > .cate_corps:nth-child(3 of .cate_corps)::before{display:none!important;}
     
 
 }
