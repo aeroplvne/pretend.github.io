@@ -127,7 +127,7 @@ body.ptd_phone > .ptd_nav #notiffi_button .unread_count {
     font-weight: 800 !important;
     border-radius: 50% !important;
     outline: 2px solid var(--text-c1);
-    background: var(--fond-c2);
+    
     display: grid !important;
     place-items: center !important;
 }
