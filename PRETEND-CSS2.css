@@ -240,8 +240,10 @@ td:has(> a[name="quickreply"]) .word-count u{font-weight:600;text-decoration:non
 .ptd_profil_main_c4{grid-area:notifications;min-width:0;height:290px;padding:0 15px 0 0;box-sizing:border-box;display:flex;flex-direction:column}
 .ptd_profil_main_c4 > h2{margin:35px 0 10px 1px;display:inline-block;width:fit-content;color:var(--text-c6);font-family:var(--font-5);font-weight:500;font-size:9px;text-transform:uppercase;padding:1px 4px;outline:1px solid var(--text-c6);outline-offset:1px;flex-shrink:0}
 .ptd_profil_main .ptd_profil_main_bottom{position:relative;min-height:160px}
-.ptd_profil_main .ptd_profil_main_bottom #switcheroo{position:relative;width:calc(100% - 35px);margin-left:35px;box-sizing:border-box}
-.ptd_profil_main .ptd_profil_main_bottom .switcheroo__squircles{grid-template-columns:repeat(auto-fill,100px)!important}
+.ptd_profil_main .ptd_profil_main_bottom #switcheroo{position:relative;width:calc(100% - 35px);height:160px!important;margin-left:35px;padding:7px;box-sizing:border-box;overflow-x:auto!important;overflow-y:hidden!important}
+.ptd_profil_main .ptd_profil_main_bottom .switcheroo__squircles{display:grid!important;grid-auto-flow:column!important;grid-template-rows:repeat(2,70px)!important;grid-template-columns:none!important;grid-auto-columns:70px!important;gap:4px!important;width:max-content!important;height:max-content!important;margin:0!important;padding:0!important;align-content:start;justify-content:start}
+.ptd_profil_main .ptd_profil_main_bottom .switcheroo__squircle{width:70px!important;height:70px!important;min-width:0!important;min-height:0!important}
+.ptd_profil_main .ptd_profil_main_bottom .switcheroo__squircle--button{display:flex!important;align-items:center;justify-content:center;width:70px!important;height:70px!important}
 .ptd_profile_close{position:absolute;top:5px;right:8px;z-index:2;width:28px;height:28px;border:0;padding:0;background:var(--fond-c2);color:var(--text-c1);font-size:24px;line-height:1;cursor:pointer}
 .ptd_nav_prof{cursor:pointer}
 .ptd_nav_prof:focus-visible,#notiffi_button:focus-visible,.ptd_profile_close:focus-visible{outline:2px solid var(--text-c2);outline-offset:2px}
