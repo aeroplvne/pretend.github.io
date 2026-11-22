@@ -314,7 +314,7 @@ h2.topic-title a{color:var(--text-c1); font-size:13px;font-family:var(--font-7);
 .sujet_linksprof a:hover{color:var(--text-c1);transition:0.3s linear;}
 .sujet_online{color:transparent;background: var(--deg-4);background-clip: text;;padding:0 3px;-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .sujet_options a{font-size:8px;font-weight:400;text-transform:uppercase;display:inline-block;font-family: var(--font-2);margin:0 3px;float:right;}
-.i_icon_mention{position: absolute;margin-top: 20px !important;margin-left: 384px !important;z-index: 10;cursor: pointer;}
+.i_icon_mention{position: absolute;margin-top: 20px !important;margin-left: 366px !important;z-index: 10;cursor: pointer;}
 .sujet_options2{position: relative;margin: 21px 37px 5px 0;height: 10px;}
 .sujet_details{width:150px;color: var(--para-c1);font-family: var(--font-1);text-transform: lowercase;font-size: 10px;margin: 18px 0 5px 0;}
 .postbody{font-size:13px;}
