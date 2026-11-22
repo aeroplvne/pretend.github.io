@@ -1388,27 +1388,7 @@ button#bookmark-button {
     border: none;
     cursor: pointer;               
                
-/* EDITEUR FORUMACTIF */
-.sceditor-container.ltr.wysiwygMode{background-color:var(--fond-c2)!important;border:var(--border-c1)!important}
-.sceditor-container.ltr.sourceMode{background-color:var(--fond-c2)!important;border:var(--border-c1)!important}
-div.sceditor-toolbar{background-color:var(--fond-c2)!important;border-bottom:2px solid var(--border-c1)!important}
-.sceditor-container iframe,.sceditor-container textarea{color:var(--para-c1)!important;background-color:var(--fond-c2)!important;border:1px solid var(--fond-c2)!important;font-size:13px!important;line-height:1.5;font-family:var(--font-c1);padding:8px!important}
-.sceditor-container iframe:hover,.sceditor-container textarea:hover{color:var(--para-c1)!important;background-color:var(--fond-c2)!important;border:1px solid var(--fond-c2)!important}
-div.sceditor-group{background-color:var(--fond-c2)!important;color:#615D5A!important;font-size:11px!important;border:1px solid var(--fond-c2)!important}
-div.sceditor-group:hover{background-color:var(--fond-c2)!important;color:#615D5A!important;font-size:11px!important;border:1px solid var(--fond-c2)!important}
-a.sceditor-button{background-color:var(--fond-c2)!important}
-a.sceditor-button.hover{background-color:var(--fond-c2)!important;border:1px dotted var(--fond-c1)!important}
-#text_editor_iframe,input.post,select,input{background-color:var(--fond-c2)!important;color:var(--para-c1)!important;font-size:12px;}
-textarea.inputbox{background-color:var(--fond-c2)!important;color:var(--para-c1)!important;font-size:12px}
-textarea,textarea.post,inputbox{color:var(--para-c1)!important;border:1px solid var(--border-c1)!important;background:var(--fond-c2)!important;font-size:12px}
-div.sceditor-dropdown{background:var(--fond-c2)!important;border:transparent!important}
-#sceditor_smilies{background-color:var(--fond-c2)!important}
-#sce_smilies_body{background-color:transparent!important}
-#sceditor_smilies #smilies_header{background-color:var(--fond-c2)!important}
-#sce_smilies_body td.row1, td.row1, td.row3.over:hover, td.row1, td.row1.over, td.row1, td.row3.over:hover, #sceditor_smilies #smilies_header{background-color:transparent!important}
-#smilies_header form select{background-color:transparent!important;border:0px solid var(--border-c1)!important; text-transform:lowercase;}
-.word-count{background: var(--fond-c3);font-size: 10px;padding: 3px 0;font-weight:500;color:var(--text-c3);text-transform: lowercase;text-align:center;}
-.word-count u{font-weight:600;text-decoration:none!important;}
+
 
 
 /*toggle*/
