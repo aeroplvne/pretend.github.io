@@ -330,7 +330,6 @@ table{border-spacing: 0px!important;}
 
 /*QUI EST EN LIGNE*/
 .qeel_general{float:left;width:1080px;height:229px;padding:5px 0px;position:relative;z-index:4;}
-.qeel_img{width: 354px;height: 229px;float: left;background-image:var(--qeel_img);background-size:cover;margin: 0 5px 0 0;position: relative;z-index:3;}
 .qeel_all{float:left;width:720px;margin:0;background:var(--fond-c2);height:229px;outline: 1px solid var(--border-c1);}
 .qeel_col1{float:left;width:300px;margin:0;padding:0 20px;height:200px}
 .qeel_lastsub{float: left;width: 100%;border-bottom: 1px solid var(--border-c1);margin-top: 20px;}
