@@ -256,6 +256,8 @@ td:has(> a[name="quickreply"]) .word-count u{font-weight:600;text-decoration:non
 #switcheroo .switcheroo__popper-text{display:block;width:100%;min-width:0;white-space:normal!important;overflow-wrap:anywhere!important;text-align:center!important}
 .ptd_profil_main .ptd_profil_main_bottom
 #switcheroo .switcheroo__squircle--button{display:flex!important;align-items:center!important;justify-content:center!important;width:70px!important;height:70px!important}.ptd_profile_close{position:absolute;top:5px;right:8px;z-index:2;width:28px;height:28px;border:0;padding:0;background:var(--fond-c2);color:var(--text-c1);font-size:24px;line-height:1;cursor:pointer}
+.ptd_profil_main .ptd_profil_main_bottom
+#switcheroo li.switcheroo__squircle--button{display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;line-height:1!important;padding:0!important;box-sizing:border-box!important}
 .ptd_nav_prof{cursor:pointer}
 .ptd_nav_prof:focus-visible,#notiffi_button:focus-visible,.ptd_profile_close:focus-visible{outline:2px solid var(--text-c2);outline-offset:2px}
 .ptd_profil_main_c4 #notiffi_panel,.ptd_profil_main_c4 #notiffi_panel.open{position:static!important;inset:auto!important;z-index:auto!important;width:100%!important;height:auto!important;min-height:0;flex:1;max-height:none!important;box-sizing:border-box;margin:0!important;padding:0!important;border:0!important;opacity:1!important;visibility:visible!important;transform:none!important;transition:none!important;display:flex!important;flex-direction:column;gap:10px;overflow:hidden}
