@@ -1221,4 +1221,7 @@ body.ptd_phone .ptd_profil_guest .ptd_profil_main_c4 { display: none !important;
     .qeel_all::before,.qeel_all::after{display:none!important;}
     .qeel_all{margin:0!important}
 
+    .lastpost_link{margin-top: -60px!important;
+    display: block!important;}
+
 }
